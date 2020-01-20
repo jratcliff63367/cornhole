@@ -1,2020 +1,2040 @@
 
 Week1
 
-Board1,Board2,Board3,Board4,Board5,Board6
-Game1
-"J2:J1 vs V2:V1","L1:L2 vs Q2:Q1","W2:W1 vs P1:P2","G1:G2 vs I1:I2","H2:H1 vs Y2:Y1","A2:A1 vs S1:S2"
-Game2
-"B2:B1 vs R1:R2","D2:D1 vs C1:C2","N2:N1 vs U1:U2","K2:K1 vs M1:M2","T2:T1 vs O2:O1","F2:F1 vs E2:E1"
-Game3
-"P1:A1 vs J1:Q2","Q1:A2 vs P2:V1","V2:G1 vs L1:H2","I2:H1 vs S2:I1","S1:G2 vs W2:Y2","W1:J2 vs L2:Y1"
-Game4
-"O2:B1 vs D2:K2","M1:B2 vs F2:T1","F1:C1 vs R1:O1","C2:E1 vs M2:U1","R2:D1 vs U2:E2","N2:K1 vs T2:N1"
+Board1:Game1,Board2:Game1,Board3:Game1,Board4:Game1,Board5:Game1,Board6:Game1
+"'Susan  Bernabie and Richard Bernabiae' vs 'Coleen Hellen and Karla Bloom'","'Marilyn Gray and Wayne Gray' vs 'Jim Hitt and Larry Hanahan'","'Mike Slaback and Melissa  Slaback' vs 'Jerome Hand and Kirk DouPonce'","'John Alessi and Steve Hemschoot' vs 'Jim  Ross and Leanne Ross'","'Teresa Newsom and Steve Newsom' vs 'Player48 and Player47'","'Rodney Goodlette and Michael Mitvalsky' vs 'Ron Thibedeau and Sean Smith'"
+
+Board1:Game2,Board2:Game2,Board3:Game2,Board4:Game2,Board5:Game2,Board6:Game2
+"'Player46 and Player45' vs 'Nick Hord and Dan Balantyne'","'Eric Winton and Julie Joy' vs 'Tristan Maddox and Lindsey Mannix'","'Mike Sanger and Micah Sanger' vs 'Ron Billings and Dave Cannella'","'Shane Wilson and Cindy  Hughes' vs 'Jim Schmidt and Laurie Schmidt'","'Jacob Sampson and Camilla Sampson' vs 'Dave Halter and Christie Kabrich'","'Angela Wolcott and Gabe Wolcott' vs 'Wendy McGowan and Dennis McGowan'"
+
+Board1:Game3,Board2:Game3,Board3:Game3,Board4:Game3,Board5:Game3,Board6:Game3
+"'Teresa Newsom and Melissa  Slaback' vs 'Leanne Ross and Sean Smith'","'Player48 and Kirk DouPonce' vs 'Jerome Hand and Ron Thibedeau'","'Susan  Bernabie and Jim Hitt' vs 'Michael Mitvalsky and Player47'","'Coleen Hellen and Richard Bernabiae' vs 'Mike Slaback and Rodney Goodlette'","'John Alessi and Karla Bloom' vs 'Wayne Gray and Marilyn Gray'","'Steve Hemschoot and Steve Newsom' vs 'Larry Hanahan and Jim  Ross'"
+
+Board1:Game4,Board2:Game4,Board3:Game4,Board4:Game4,Board5:Game4,Board6:Game4
+"'Dan Balantyne and Shane Wilson' vs 'Camilla Sampson and Micah Sanger'","'Player46 and Ron Billings' vs 'Eric Winton and Dave Halter'","'Dave Cannella and Julie Joy' vs 'Gabe Wolcott and Player45'","'Nick Hord and Mike Sanger' vs 'Angela Wolcott and Cindy  Hughes'","'Lindsey Mannix and Dennis McGowan' vs 'Christie Kabrich and Jim Schmidt'","'Laurie Schmidt and Wendy McGowan' vs 'Jacob Sampson and Tristan Maddox'"
+
 
 Week2
 
-Board1,Board2,Board3,Board4,Board5,Board6
-Game1
-"M1:A1 vs L1:M2","Y2:A2 vs R1:U1","Y1:B1 vs V1:I2","P2:B2 vs N2:S1","D2:E1 vs W1:D1","G1:C1 vs J2:P1"
-Game2
-"E2:C2 vs G2:K2","F2:H1 vs T1:Q1","Q2:F1 vs V2:T2","I1:H2 vs S2:U2","L2:J1 vs W2:N1","O2:K1 vs R2:O1"
-Game3
-"W1:A1 vs R1:J2","L1:A2 vs C1:E1","V1:B2 vs U1:G1","N2:B1 vs P1:M2","Y2:D1 vs I2:M1","S1:D2 vs Y1:P2"
-Game4
-"G2:F1 vs K2:Q2","I1:C2 vs R2:O1","H2:E2 vs Q1:J1","U2:F2 vs K1:O2","H1:L2 vs V2:T2","N1:S2 vs T1:W2"
+Board1:Game1,Board2:Game1,Board3:Game1,Board4:Game1,Board5:Game1,Board6:Game1
+"'Steve Hemschoot and Dave Cannella' vs 'Lindsey Mannix and Dave Halter'","'Christie Kabrich and Angela Wolcott' vs 'Jim Schmidt and Karla Bloom'","'Susan  Bernabie and Wendy McGowan' vs 'Player48 and Julie Joy'","'Kirk DouPonce and Teresa Newsom' vs 'Wayne Gray and Eric Winton'","'Jim  Ross and Mike Sanger' vs 'Jerome Hand and Sean Smith'","'Laurie Schmidt and Mike Slaback' vs 'Dennis McGowan and Michael Mitvalsky'"
+
+Board1:Game2,Board2:Game2,Board3:Game2,Board4:Game2,Board5:Game2,Board6:Game2
+"'Marilyn Gray and Coleen Hellen' vs 'Player47 and Player45'","'Micah Sanger and Rodney Goodlette' vs 'Camilla Sampson and Larry Hanahan'","'Gabe Wolcott and Jacob Sampson' vs 'Richard Bernabiae and John Alessi'","'Player46 and Jim Hitt' vs 'Cindy  Hughes and Tristan Maddox'","'Melissa  Slaback and Ron Billings' vs 'Dan Balantyne and Shane Wilson'","'Ron Thibedeau and Nick Hord' vs 'Leanne Ross and Steve Newsom'"
+
+Board1:Game3,Board2:Game3,Board3:Game3,Board4:Game3,Board5:Game3,Board6:Game3
+"'Teresa Newsom and Mike Sanger' vs 'Lindsey Mannix and Jim  Ross'","'Sean Smith and Dennis McGowan' vs 'Wendy McGowan and Steve Hemschoot'","'Wayne Gray and Susan  Bernabie' vs 'Jim Schmidt and Jerome Hand'","'Player48 and Michael Mitvalsky' vs 'Angela Wolcott and Dave Cannella'","'Eric Winton and Laurie Schmidt' vs 'Karla Bloom and Dave Halter'","'Julie Joy and Christie Kabrich' vs 'Mike Slaback and Kirk DouPonce'"
+
+Board1:Game4,Board2:Game4,Board3:Game4,Board4:Game4,Board5:Game4,Board6:Game4
+"'Jim Hitt and Melissa  Slaback' vs 'Micah Sanger and Coleen Hellen'","'Player47 and Camilla Sampson' vs 'Larry Hanahan and Jacob Sampson'","'Ron Thibedeau and Cindy  Hughes' vs 'Gabe Wolcott and Dan Balantyne'","'Steve Newsom and Marilyn Gray' vs 'Ron Billings and Rodney Goodlette'","'Tristan Maddox and John Alessi' vs 'Shane Wilson and Player45'","'Player46 and Richard Bernabiae' vs 'Leanne Ross and Nick Hord'"
+
 
 Week3
 
-Board1,Board2,Board3,Board4,Board5,Board6
-Game1
-"Q1:A1 vs B1:O2","Y1:A2 vs K1:F1","V2:B2 vs S2:P1","Q2:C1 vs U1:H1","W2:C2 vs F2:G1","K2:D1 vs R2:J2"
-Game2
-"V1:D2 vs L1:H2","M2:E2 vs U2:L2","J1:E1 vs T1:I2","T2:G2 vs N1:S1","O1:M1 vs N2:R1","Y2:I1 vs W1:P2"
-Game3
-"W2:A1 vs F1:D1","U1:B1 vs Y1:F2","G1:A2 vs O2:Q2","S2:C1 vs C2:Q1","V2:K1 vs K2:B2","H1:J2 vs R2:P1"
-Game4
-"E2:D2 vs M2:I1","J1:G2 vs U2:R1","V1:E1 vs Y2:N2","W1:H2 vs T2:M1","O1:I2 vs L2:P2","S1:L1 vs N1:T1"
+Board1:Game1,Board2:Game1,Board3:Game1,Board4:Game1,Board5:Game1,Board6:Game1
+"'Lindsey Mannix and Gabe Wolcott' vs 'Steve Newsom and Mike Slaback'","'Mike Sanger and Tristan Maddox' vs 'Player47 and Steve Hemschoot'","'Susan  Bernabie and Micah Sanger' vs 'Kirk DouPonce and Cindy  Hughes'","'Larry Hanahan and Player46' vs 'Sean Smith and Shane Wilson'","'Coleen Hellen and Camilla Sampson' vs 'Jerome Hand and Dennis McGowan'","'Wendy McGowan and Ron Thibedeau' vs 'Ron Billings and Jim  Ross'"
+
+Board1:Game2,Board2:Game2,Board3:Game2,Board4:Game2,Board5:Game2,Board6:Game2
+"'Leanne Ross and Player48' vs 'Michael Mitvalsky and Rodney Goodlette'","'Melissa  Slaback and Dave Cannella' vs 'Nick Hord and Laurie Schmidt'","'Jim Schmidt and Player45' vs 'Dave Halter and Karla Bloom'","'Teresa Newsom and Jacob Sampson' vs 'Julie Joy and Dan Balantyne'","'Marilyn Gray and Richard Bernabiae' vs 'Wayne Gray and Angela Wolcott'","'Eric Winton and Jim Hitt' vs 'John Alessi and Christie Kabrich'"
+
+Board1:Game3,Board2:Game3,Board3:Game3,Board4:Game3,Board5:Game3,Board6:Game3
+"'Coleen Hellen and Shane Wilson' vs 'Mike Sanger and Steve Newsom'","'Player47 and Gabe Wolcott' vs 'Camilla Sampson and Kirk DouPonce'","'Tristan Maddox and Susan  Bernabie' vs 'Ron Billings and Larry Hanahan'","'Player46 and Wendy McGowan' vs 'Lindsey Mannix and Micah Sanger'","'Steve Hemschoot and Cindy  Hughes' vs 'Ron Thibedeau and Jerome Hand'","'Sean Smith and Mike Slaback' vs 'Jim  Ross and Dennis McGowan'"
+
+Board1:Game4,Board2:Game4,Board3:Game4,Board4:Game4,Board5:Game4,Board6:Game4
+"'Jim Hitt and Rodney Goodlette' vs 'Melissa  Slaback and Teresa Newsom'","'Eric Winton and Jacob Sampson' vs 'Wayne Gray and Michael Mitvalsky'","'Karla Bloom and Leanne Ross' vs 'Dave Halter and Player48'","'Laurie Schmidt and Julie Joy' vs 'John Alessi and Nick Hord'","'Marilyn Gray and Jim Schmidt' vs 'Dave Cannella and Richard Bernabiae'","'Player45 and Angela Wolcott' vs 'Christie Kabrich and Dan Balantyne'"
+
 
 Week4
 
-Board1,Board2,Board3,Board4,Board5,Board6
-Game1
-"T1:A1 vs L2:I1","D1:A2 vs B2:Q1","M1:B1 vs W2:J2","H2:C1 vs G2:P2","E2:G1 vs E1:D2","F2:I2 vs V1:M2"
-Game2
-"U1:F1 vs S1:W1","K1:C2 vs Y2:J1","N2:H1 vs L1:K2","T2:P1 vs S2:U2","O2:N1 vs V2:R1","Q2:O1 vs Y1:R2"
-Game3
-"L2:A2 vs B1:M1","I2:A1 vs Q1:W2","H2:B2 vs J2:M2","E2:C1 vs G1:T1","D2:F2 vs G2:V1","E1:I1 vs P2:D1"
-Game4
-"U2:C2 vs L1:F1","S2:J1 vs S1:N2","R2:N1 vs Y1:P1","U1:K1 vs H1:R1","T2:K2 vs Y2:O1","Q2:W1 vs O2:V2"
+Board1:Game1,Board2:Game1,Board3:Game1,Board4:Game1,Board5:Game1,Board6:Game1
+"'Steve Hemschoot and Teresa Newsom' vs 'Gabe Wolcott and Player45'","'Dave Halter and Rodney Goodlette' vs 'Wendy McGowan and Jim Hitt'","'Susan  Bernabie and Dennis McGowan' vs 'Melissa  Slaback and Mike Sanger'","'Ron Thibedeau and Larry Hanahan' vs 'Laurie Schmidt and Eric Winton'","'Leanne Ross and Lindsey Mannix' vs 'Kirk DouPonce and Camilla Sampson'","'Player48 and Shane Wilson' vs 'Jim  Ross and Player47'"
+
+Board1:Game2,Board2:Game2,Board3:Game2,Board4:Game2,Board5:Game2,Board6:Game2
+"'Micah Sanger and John Alessi' vs 'Nick Hord and Coleen Hellen'","'Michael Mitvalsky and Karla Bloom' vs 'Steve Newsom and Dan Balantyne'","'Jim Schmidt and Jacob Sampson' vs 'Tristan Maddox and Marilyn Gray'","'Dave Cannella and Cindy  Hughes' vs 'Sean Smith and Ron Billings'","'Wayne Gray and Player46' vs 'Christie Kabrich and Julie Joy'","'Jerome Hand and Richard Bernabiae' vs 'Angela Wolcott and Mike Slaback'"
+
+Board1:Game3,Board2:Game3,Board3:Game3,Board4:Game3,Board5:Game3,Board6:Game3
+"'Camilla Sampson and Eric Winton' vs 'Susan  Bernabie and Player45'","'Dave Halter and Mike Sanger' vs 'Gabe Wolcott and Player48'","'Dennis McGowan and Kirk DouPonce' vs 'Larry Hanahan and Jim Hitt'","'Player47 and Wendy McGowan' vs 'Ron Thibedeau and Melissa  Slaback'","'Shane Wilson and Rodney Goodlette' vs 'Lindsey Mannix and Steve Hemschoot'","'Leanne Ross and Teresa Newsom' vs 'Laurie Schmidt and Jim  Ross'"
+
+Board1:Game4,Board2:Game4,Board3:Game4,Board4:Game4,Board5:Game4,Board6:Game4
+"'Micah Sanger and Jacob Sampson' vs 'Jerome Hand and Sean Smith'","'Angela Wolcott and Player46' vs 'Steve Newsom and Wayne Gray'","'Julie Joy and Michael Mitvalsky' vs 'Karla Bloom and Ron Billings'","'Jim Schmidt and Dan Balantyne' vs 'Mike Slaback and John Alessi'","'Marilyn Gray and Cindy  Hughes' vs 'Tristan Maddox and Coleen Hellen'","'Dave Cannella and Christie Kabrich' vs 'Richard Bernabiae and Nick Hord'"
+
 
 Week5
 
-Board1,Board2,Board3,Board4,Board5,Board6
-Game1
-"Y2:A1 vs O1:F2","H2:A2 vs I2:R2","P2:B1 vs B2:E2","O2:C1 vs E1:M1","W1:C2 vs W2:Q1","U1:D1 vs K1:T1"
-Game2
-"L1:G2 vs S2:J1","J2:D2 vs R1:S1","P1:F1 vs M2:V1","I1:K2 vs T2:Y1","U2:G1 vs V2:N2","H1:N1 vs Q2:L2"
-Game3
-"C2:A1 vs P2:T1","I2:B2 vs E2:M1","O1:A2 vs W1:D1","Q1:E1 vs W2:K1","C1:B1 vs H2:O2","R2:F2 vs Y2:U1"
-Game4
-"G1:F1 vs L2:J1","S2:D2 vs Q2:J2","R1:I1 vs N2:V2","T2:L1 vs P1:Y1","U2:H1 vs S1:V1","K2:N1 vs M2:G2"
+Board1:Game1,Board2:Game1,Board3:Game1,Board4:Game1,Board5:Game1,Board6:Game1
+"'Steve Hemschoot and Jacob Sampson' vs 'Coleen Hellen and Ron Billings'","'Jim Hitt and Mike Sanger' vs 'Steve Newsom and Eric Winton'","'Nick Hord and Susan  Bernabie' vs 'Tristan Maddox and Dennis McGowan'","'Dave Cannella and Kirk DouPonce' vs 'Wendy McGowan and Dan Balantyne'","'Player46 and Karla Bloom' vs 'Larry Hanahan and Gabe Wolcott'","'Micah Sanger and Player47' vs 'Richard Bernabiae and John Alessi'"
+
+Board1:Game2,Board2:Game2,Board3:Game2,Board4:Game2,Board5:Game2,Board6:Game2
+"'Michael Mitvalsky and Melissa  Slaback' vs 'Marilyn Gray and Jim  Ross'","'Ron Thibedeau and Julie Joy' vs 'Sean Smith and Jerome Hand'","'Laurie Schmidt and Christie Kabrich' vs 'Rodney Goodlette and Mike Slaback'","'Camilla Sampson and Cindy  Hughes' vs 'Teresa Newsom and Angela Wolcott'","'Lindsey Mannix and Player45' vs 'Player48 and Wayne Gray'","'Dave Halter and Shane Wilson' vs 'Leanne Ross and Jim Schmidt'"
+
+Board1:Game3,Board2:Game3,Board3:Game3,Board4:Game3,Board5:Game3,Board6:Game3
+"'Steve Newsom and Micah Sanger' vs 'Dennis McGowan and Eric Winton'","'Steve Hemschoot and Karla Bloom' vs 'Jim Hitt and Jacob Sampson'","'Susan  Bernabie and Dave Cannella' vs 'John Alessi and Player46'","'Gabe Wolcott and Tristan Maddox' vs 'Dan Balantyne and Coleen Hellen'","'Larry Hanahan and Richard Bernabiae' vs 'Wendy McGowan and Mike Sanger'","'Player47 and Nick Hord' vs 'Ron Billings and Kirk DouPonce'"
+
+Board1:Game4,Board2:Game4,Board3:Game4,Board4:Game4,Board5:Game4,Board6:Game4
+"'Wayne Gray and Shane Wilson' vs 'Rodney Goodlette and Cindy  Hughes'","'Mike Slaback and Camilla Sampson' vs 'Sean Smith and Player48'","'Ron Thibedeau and Angela Wolcott' vs 'Teresa Newsom and Dave Halter'","'Laurie Schmidt and Jerome Hand' vs 'Player45 and Jim Schmidt'","'Lindsey Mannix and Marilyn Gray' vs 'Jim  Ross and Leanne Ross'","'Julie Joy and Melissa  Slaback' vs 'Christie Kabrich and Michael Mitvalsky'"
+
 
 Week6
 
-Board1,Board2,Board3,Board4,Board5,Board6
-Game1
-"Y1:A1 vs A2:P1","M2:C1 vs Q2:I1","E2:H1 vs W1:N1","V1:C2 vs V2:M1","E1:B1 vs S2:J1","G2:B2 vs L2:L1"
-Game2
-"O2:D1 vs S1:N2","F1:D2 vs U1:Q1","F2:H2 vs R1:K2","O1:G1 vs U2:W2","J2:I2 vs T1:T2","R2:P2 vs K1:Y2"
-Game3
-"G2:A1 vs B2:E1","N1:A2 vs C2:I1","M2:H1 vs J1:M1","B1:L1 vs W1:Q2","V2:C1 vs Y1:E2","V1:L2 vs S2:P1"
-Game4
-"W2:D2 vs K2:T1","T2:D1 vs P2:U1","Y2:F1 vs J2:O2","R1:G1 vs S1:Q1","I2:K1 vs N2:H2","O1:U2 vs F2:R2"
+Board1:Game1,Board2:Game1,Board3:Game1,Board4:Game1,Board5:Game1,Board6:Game1
+"'Steve Hemschoot and Michael Mitvalsky' vs 'Richard Bernabiae and Cindy  Hughes'","'Steve Newsom and Sean Smith' vs 'Susan  Bernabie and Wayne Gray'","'Dave Cannella and Teresa Newsom' vs 'Shane Wilson and Karla Bloom'","'Angela Wolcott and Ron Billings' vs 'Gabe Wolcott and Leanne Ross'","'Jim  Ross and Rodney Goodlette' vs 'Micah Sanger and Julie Joy'","'Player48 and Melissa  Slaback' vs 'Jim Schmidt and Jacob Sampson'"
+
+Board1:Game2,Board2:Game2,Board3:Game2,Board4:Game2,Board5:Game2,Board6:Game2
+"'Tristan Maddox and Wendy McGowan' vs 'Mike Sanger and John Alessi'","'Player47 and Marilyn Gray' vs 'Dan Balantyne and Dennis McGowan'","'Dave Halter and Larry Hanahan' vs 'Christie Kabrich and Coleen Hellen'","'Player46 and Laurie Schmidt' vs 'Kirk DouPonce and Camilla Sampson'","'Mike Slaback and Eric Winton' vs 'Nick Hord and Ron Thibedeau'","'Player45 and Jim Hitt' vs 'Lindsey Mannix and Jerome Hand'"
+
+Board1:Game3,Board2:Game3,Board3:Game3,Board4:Game3,Board5:Game3,Board6:Game3
+"'Julie Joy and Leanne Ross' vs 'Micah Sanger and Jim Schmidt'","'Steve Newsom and Melissa  Slaback' vs 'Dave Cannella and Steve Hemschoot'","'Susan  Bernabie and Angela Wolcott' vs 'Shane Wilson and Jacob Sampson'","'Player48 and Cindy  Hughes' vs 'Richard Bernabiae and Sean Smith'","'Michael Mitvalsky and Teresa Newsom' vs 'Gabe Wolcott and Wayne Gray'","'Karla Bloom and Jim  Ross' vs 'Rodney Goodlette and Ron Billings'"
+
+Board1:Game4,Board2:Game4,Board3:Game4,Board4:Game4,Board5:Game4,Board6:Game4
+"'Tristan Maddox and Christie Kabrich' vs 'Ron Thibedeau and John Alessi'","'Player47 and Lindsey Mannix' vs 'Nick Hord and Jerome Hand'","'Coleen Hellen and Eric Winton' vs 'Camilla Sampson and Wendy McGowan'","'Player46 and Mike Slaback' vs 'Mike Sanger and Marilyn Gray'","'Laurie Schmidt and Dennis McGowan' vs 'Dan Balantyne and Jim Hitt'","'Player45 and Kirk DouPonce' vs 'Larry Hanahan and Dave Halter'"
+
 
 Week7
 
-Board1,Board2,Board3,Board4,Board5,Board6
-Game1
-"U2:A1 vs I2:K2","J2:A2 vs J1:O1","B2:C1 vs W1:N1","Q1:G2 vs M2:U1","M1:D2 vs P1:F1","T2:B1 vs L1:D1"
-Game2
-"K1:E2 vs S2:O2","I1:F2 vs H2:Q2","R1:C2 vs L2:E1","Y2:G1 vs T1:Y1","V1:R2 vs W2:S1","V2:P2 vs N2:H1"
-Game3
-"M2:A2 vs T2:L1","B1:F1 vs G2:M1","A1:C1 vs U2:W1","K2:J1 vs Q1:B2","P1:D1 vs N1:I2","U1:J2 vs O1:D2"
-Game4
-"S1:C2 vs N2:E2","O2:H1 vs W2:H2","K1:G1 vs Y2:L2","S2:F2 vs R2:P2","I1:V1 vs R1:Q2","T1:V2 vs E1:Y1"
+Board1:Game1,Board2:Game1,Board3:Game1,Board4:Game1,Board5:Game1,Board6:Game1
+"'Leanne Ross and Dennis McGowan' vs 'Wayne Gray and Tristan Maddox'","'Melissa  Slaback and Karla Bloom' vs 'Mike Sanger and John Alessi'","'Jim Schmidt and Richard Bernabiae' vs 'Eric Winton and Jim  Ross'","'Nick Hord and Sean Smith' vs 'Gabe Wolcott and Shane Wilson'","'Player46 and Jerome Hand' vs 'Rodney Goodlette and Ron Billings'","'Julie Joy and Dave Halter' vs 'Larry Hanahan and Dan Balantyne'"
+
+Board1:Game2,Board2:Game2,Board3:Game2,Board4:Game2,Board5:Game2,Board6:Game2
+"'Kirk DouPonce and Susan  Bernabie' vs 'Angela Wolcott and Steve Hemschoot'","'Christie Kabrich and Steve Newsom' vs 'Micah Sanger and Teresa Newsom'","'Laurie Schmidt and Marilyn Gray' vs 'Lindsey Mannix and Coleen Hellen'","'Mike Slaback and Dave Cannella' vs 'Cindy  Hughes and Player47'","'Camilla Sampson and Ron Thibedeau' vs 'Jim Hitt and Wendy McGowan'","'Player48 and Jacob Sampson' vs 'Player45 and Michael Mitvalsky'"
+
+Board1:Game3,Board2:Game3,Board3:Game3,Board4:Game3,Board5:Game3,Board6:Game3
+"'Nick Hord and Dave Halter' vs 'Jim  Ross and Wayne Gray'","'Player46 and Jim Schmidt' vs 'Melissa  Slaback and Ron Billings'","'Tristan Maddox and Rodney Goodlette' vs 'Gabe Wolcott and Eric Winton'","'Karla Bloom and Jerome Hand' vs 'Shane Wilson and Dennis McGowan'","'John Alessi and Leanne Ross' vs 'Larry Hanahan and Richard Bernabiae'","'Julie Joy and Mike Sanger' vs 'Dan Balantyne and Sean Smith'"
+
+Board1:Game4,Board2:Game4,Board3:Game4,Board4:Game4,Board5:Game4,Board6:Game4
+"'Mike Slaback and Susan  Bernabie' vs 'Jim Hitt and Wendy McGowan'","'Michael Mitvalsky and Camilla Sampson' vs 'Steve Hemschoot and Kirk DouPonce'","'Player45 and Ron Thibedeau' vs 'Micah Sanger and Angela Wolcott'","'Christie Kabrich and Player47' vs 'Cindy  Hughes and Player48'","'Lindsey Mannix and Teresa Newsom' vs 'Coleen Hellen and Dave Cannella'","'Laurie Schmidt and Steve Newsom' vs 'Marilyn Gray and Jacob Sampson'"
+
 
 Week8
 
-Board1,Board2,Board3,Board4,Board5,Board6
-Game1
-"C2:C1 vs B1:B2","I2:I1 vs J2:J1","L1:L2 vs S1:S2","N1:N2 vs Q1:Q2","W2:W1 vs M2:M1","Y1:Y2 vs D1:D2"
-Game2
-"K2:K1 vs G1:G2","F1:F2 vs H1:H2","V2:V1 vs T2:T1","A1:A2 vs E2:E1","U2:U1 vs P2:P1","O1:O2 vs R1:R2"
-Game3
-"Y1:B2 vs Q1:M1","J2:C2 vs Q2:W2","L1:I1 vs Y2:L2","C1:I2 vs S1:M2","S2:D1 vs J1:W1","D2:N1 vs B1:N2"
-Game4
-"H2:A1 vs U1:E2","T1:A2 vs K2:P1","U2:E1 vs H1:O1","V2:F2 vs R2:T2","G1:P2 vs F1:G2","R1:K1 vs V1:O2"
+Board1:Game1,Board2:Game1,Board3:Game1,Board4:Game1,Board5:Game1,Board6:Game1
+"'Leanne Ross and Jim  Ross' vs 'Coleen Hellen and Karla Bloom'","'Ron Billings and Dave Cannella' vs 'Christie Kabrich and Dave Halter'","'Michael Mitvalsky and Rodney Goodlette' vs 'Dennis McGowan and Wendy McGowan'","'Player47 and Player48' vs 'Wayne Gray and Marilyn Gray'","'Steve Hemschoot and John Alessi' vs 'Angela Wolcott and Gabe Wolcott'","'Jim Schmidt and Laurie Schmidt' vs 'Steve Newsom and Teresa Newsom'"
 
-PlayerReport for player: A1
+Board1:Game2,Board2:Game2,Board3:Game2,Board4:Game2,Board5:Game2,Board6:Game2
+"'Lindsey Mannix and Tristan Maddox' vs 'Richard Bernabiae and Susan  Bernabie'","'Shane Wilson and Cindy  Hughes' vs 'Eric Winton and Julie Joy'","'Sean Smith and Ron Thibedeau' vs 'Player45 and Player46'","'Camilla Sampson and Jacob Sampson' vs 'Mike Slaback and Melissa  Slaback'","'Kirk DouPonce and Jerome Hand' vs 'Mike Sanger and Micah Sanger'","'Larry Hanahan and Jim Hitt' vs 'Dan Balantyne and Nick Hord'"
+
+Board1:Game3,Board2:Game3,Board3:Game3,Board4:Game3,Board5:Game3,Board6:Game3
+"'Gabe Wolcott and Marilyn Gray' vs 'Christie Kabrich and Leanne Ross'","'Player48 and Steve Hemschoot' vs 'Laurie Schmidt and John Alessi'","'Jim Schmidt and Wendy McGowan' vs 'Player47 and Karla Bloom'","'Rodney Goodlette and Wayne Gray' vs 'Dave Cannella and Jim  Ross'","'Steve Newsom and Angela Wolcott' vs 'Dave Halter and Dennis McGowan'","'Coleen Hellen and Teresa Newsom' vs 'Michael Mitvalsky and Ron Billings'"
+
+Board1:Game4,Board2:Game4,Board3:Game4,Board4:Game4,Board5:Game4,Board6:Game4
+"'Julie Joy and Jim Hitt' vs 'Mike Sanger and Camilla Sampson'","'Lindsey Mannix and Cindy  Hughes' vs 'Melissa  Slaback and Larry Hanahan'","'Susan  Bernabie and Jacob Sampson' vs 'Micah Sanger and Nick Hord'","'Player46 and Ron Thibedeau' vs 'Richard Bernabiae and Jerome Hand'","'Sean Smith and Tristan Maddox' vs 'Kirk DouPonce and Dan Balantyne'","'Player45 and Mike Slaback' vs 'Shane Wilson and Eric Winton'"
+
+
+PlayerReport for player: Richard Bernabiae
 Partner,PartnerCount,OpponentCount
-A2,2,1
-B1,0,1
-B2,0,1
-C1,1,0
-C2,1,0
-D1,0,1
-E1,0,2
-E2,0,2
-F1,0,1
-F2,0,1
-G2,1,0
-H2,1,0
-I1,0,1
-I2,1,1
-J1,0,1
-J2,0,1
-K2,0,1
-L1,0,1
-L2,0,1
-M1,1,0
-M2,0,1
-O1,0,1
-O2,0,1
-P1,1,1
-P2,0,1
-Q1,1,1
-Q2,0,1
-R1,0,1
-S1,0,1
-S2,0,1
-T1,1,1
-U1,0,1
-U2,1,1
-W1,1,1
-W2,1,1
-Y1,1,0
-Y2,1,0
+Susan  Bernabie,2,0
+Marilyn Gray,1,1
+Wayne Gray,0,1
+Tristan Maddox,0,1
+Lindsey Mannix,0,1
+Wendy McGowan,0,1
+Jacob Sampson,0,1
+Jim Schmidt,1,1
+Mike Slaback,0,2
+Angela Wolcott,0,2
+Gabe Wolcott,0,1
+Micah Sanger,0,1
+Mike Sanger,0,1
+Jim  Ross,0,1
+Leanne Ross,0,2
+Cindy  Hughes,1,1
+Christie Kabrich,0,1
+Rodney Goodlette,0,1
+Michael Mitvalsky,0,1
+Nick Hord,1,1
+Dave Cannella,1,1
+Larry Hanahan,2,0
+Jerome Hand,2,0
+John Alessi,2,1
+Steve Hemschoot,0,1
+Ron Thibedeau,0,1
+Sean Smith,1,0
+Eric Winton,0,1
+Karla Bloom,0,1
+Coleen Hellen,1,1
+Player46,1,1
+Player47,0,1
+Player48,0,1
 
 
-PlayerReport for player: A2
+PlayerReport for player: Susan  Bernabie
 Partner,PartnerCount,OpponentCount
-A1,2,1
-B1,0,1
-B2,0,1
-C1,0,1
-C2,0,1
-D1,1,1
-E1,0,2
-E2,0,1
-F1,0,1
-G1,1,0
-H2,1,0
-I1,0,1
-I2,0,1
-J1,0,1
-J2,1,0
-K1,0,1
-K2,0,1
-L1,1,1
-L2,1,0
-M1,0,1
-M2,1,0
-N1,1,0
-O1,1,1
-O2,0,1
-P1,1,1
-P2,0,1
-Q1,1,1
-Q2,0,1
-R1,0,1
-R2,0,1
-S1,0,1
-S2,0,1
-T1,1,0
-T2,0,1
-U1,0,1
-V1,0,1
-W1,0,1
-Y1,1,1
-Y2,1,0
+Richard Bernabiae,2,0
+Wayne Gray,2,0
+Tristan Maddox,1,2
+Lindsey Mannix,0,1
+Dennis McGowan,1,1
+Wendy McGowan,1,1
+Steve Newsom,0,1
+Camilla Sampson,0,1
+Jacob Sampson,1,1
+Jim Schmidt,0,1
+Melissa  Slaback,0,1
+Mike Slaback,1,0
+Angela Wolcott,1,1
+Micah Sanger,1,1
+Mike Sanger,0,1
+Shane Wilson,0,1
+Cindy  Hughes,0,1
+Michael Mitvalsky,0,1
+Nick Hord,1,1
+Ron Billings,0,1
+Dave Cannella,1,0
+Larry Hanahan,0,1
+Jim Hitt,1,1
+Jerome Hand,0,1
+Kirk DouPonce,1,1
+John Alessi,0,1
+Steve Hemschoot,0,1
+Sean Smith,0,1
+Eric Winton,0,1
+Julie Joy,0,1
+Karla Bloom,0,1
+Coleen Hellen,0,1
+Player45,1,0
+Player46,0,1
+Player47,0,1
+Player48,0,1
 
 
-PlayerReport for player: B1
+PlayerReport for player: Marilyn Gray
 Partner,PartnerCount,OpponentCount
-A1,0,1
-A2,0,1
-B2,2,1
-C1,1,1
-C2,0,1
-D1,0,1
-D2,0,2
-E1,1,0
-E2,0,1
-F1,1,0
-F2,0,1
-G2,0,1
-H2,0,1
-I2,0,1
-J1,0,1
-J2,0,1
-K2,0,1
-L1,1,1
-L2,0,1
-M1,2,1
-M2,0,1
-N1,0,1
-N2,2,0
-O2,2,1
-P1,0,1
-P2,1,0
-Q1,0,1
-Q2,0,1
-R1,0,1
-R2,0,1
-S2,0,1
-T2,1,0
-U1,1,0
-V1,0,1
-W1,0,1
-W2,0,1
-Y1,1,1
+Richard Bernabiae,1,1
+Wayne Gray,3,1
+Tristan Maddox,1,1
+Lindsey Mannix,1,1
+Dennis McGowan,0,1
+Steve Newsom,1,1
+Jacob Sampson,1,1
+Jim Schmidt,1,1
+Laurie Schmidt,1,1
+Melissa  Slaback,0,1
+Mike Slaback,0,1
+Angela Wolcott,0,1
+Gabe Wolcott,1,0
+Mike Sanger,1,0
+Jim  Ross,1,1
+Leanne Ross,0,2
+Cindy  Hughes,1,0
+Christie Kabrich,0,1
+Rodney Goodlette,0,1
+Michael Mitvalsky,0,1
+Dan Balantyne,0,1
+Ron Billings,0,1
+Dave Cannella,0,1
+Larry Hanahan,0,1
+Jim Hitt,0,1
+John Alessi,0,1
+Karla Bloom,0,1
+Coleen Hellen,1,2
+Player45,0,1
+Player46,0,1
+Player47,1,2
+Player48,0,1
 
 
-PlayerReport for player: B2
+PlayerReport for player: Wayne Gray
 Partner,PartnerCount,OpponentCount
-A1,0,1
-A2,0,1
-B1,2,1
-C1,1,1
-C2,0,1
-D1,0,1
-E1,1,0
-E2,1,1
-F2,0,1
-G1,0,1
-G2,1,1
-H2,1,0
-I2,1,0
-J1,0,1
-J2,0,1
-K1,0,1
-K2,1,1
-L1,0,1
-L2,0,1
-M1,1,2
-M2,0,1
-N1,0,1
-N2,0,1
-P1,0,1
-P2,1,1
-Q1,2,1
-R1,0,1
-R2,0,1
-S1,0,1
-S2,0,1
-T1,0,1
-U1,0,1
-V1,1,0
-V2,1,1
-W1,0,1
-Y1,1,0
+Richard Bernabiae,0,1
+Susan  Bernabie,2,0
+Marilyn Gray,3,1
+Tristan Maddox,1,0
+Lindsey Mannix,0,1
+Dennis McGowan,0,1
+Steve Newsom,1,1
+Teresa Newsom,0,2
+Jacob Sampson,0,1
+Jim Schmidt,0,1
+Angela Wolcott,1,1
+Gabe Wolcott,1,0
+Jim  Ross,1,1
+Leanne Ross,0,1
+Shane Wilson,1,0
+Cindy  Hughes,0,1
+Christie Kabrich,0,1
+Dave Halter,0,1
+Rodney Goodlette,1,1
+Michael Mitvalsky,1,1
+Nick Hord,0,1
+Dave Cannella,0,1
+Larry Hanahan,0,1
+Jim Hitt,0,1
+Jerome Hand,0,1
+Kirk DouPonce,0,1
+John Alessi,0,1
+Sean Smith,0,1
+Eric Winton,1,1
+Julie Joy,0,1
+Karla Bloom,0,1
+Player45,0,1
+Player46,1,1
+Player47,0,1
+Player48,1,1
 
 
-PlayerReport for player: C1
+PlayerReport for player: Tristan Maddox
 Partner,PartnerCount,OpponentCount
-A1,1,0
-A2,0,1
-B1,1,1
-B2,1,1
-C2,2,1
-D1,0,1
-D2,0,1
-E1,1,1
-E2,1,1
-F1,1,0
-G1,1,1
-G2,0,1
-H1,0,1
-H2,1,1
-I1,0,1
-I2,1,0
-J2,0,1
-L1,0,1
-M1,0,1
-M2,1,1
-N1,0,1
-O1,0,1
-O2,1,1
-P1,0,1
-P2,0,1
-Q1,0,1
-Q2,1,1
-R1,0,1
-S1,0,1
-S2,1,0
-T1,0,1
-U1,0,1
-U2,0,1
-V2,1,0
-W1,0,2
-Y1,0,1
+Richard Bernabiae,0,1
+Susan  Bernabie,1,2
+Marilyn Gray,1,1
+Wayne Gray,1,0
+Lindsey Mannix,2,0
+Dennis McGowan,1,1
+Wendy McGowan,1,1
+Jacob Sampson,1,1
+Jim Schmidt,0,1
+Laurie Schmidt,0,1
+Gabe Wolcott,1,1
+Mike Sanger,1,1
+Leanne Ross,0,1
+Shane Wilson,0,1
+Cindy  Hughes,1,1
+Christie Kabrich,1,0
+Rodney Goodlette,1,0
+Nick Hord,0,1
+Dan Balantyne,0,2
+Ron Billings,0,1
+Larry Hanahan,0,1
+Jim Hitt,0,1
+Kirk DouPonce,0,1
+John Alessi,1,2
+Steve Hemschoot,0,1
+Ron Thibedeau,0,1
+Sean Smith,1,0
+Eric Winton,0,2
+Julie Joy,0,1
+Coleen Hellen,1,1
+Player45,0,1
+Player46,0,1
+Player47,0,1
 
 
-PlayerReport for player: C2
+PlayerReport for player: Lindsey Mannix
 Partner,PartnerCount,OpponentCount
-A1,1,0
-A2,0,1
-B1,0,1
-B2,0,1
-C1,2,1
-D1,0,1
-D2,0,1
-E1,1,1
-E2,1,1
-F1,0,1
-F2,0,1
-G1,0,1
-G2,0,1
-I1,2,0
-J1,0,1
-J2,1,0
-K1,1,0
-K2,0,1
-L1,0,1
-L2,0,1
-M1,0,1
-M2,0,1
-N1,0,1
-N2,0,1
-O1,0,1
-P2,0,1
-Q1,1,1
-Q2,0,1
-R1,1,0
-R2,0,1
-S1,1,0
-S2,0,1
-T1,0,1
-U1,0,1
-U2,1,0
-V1,1,0
-V2,0,1
-W1,1,0
-W2,1,2
-Y2,0,1
+Richard Bernabiae,0,1
+Susan  Bernabie,0,1
+Marilyn Gray,1,1
+Wayne Gray,0,1
+Tristan Maddox,2,0
+Dennis McGowan,1,0
+Wendy McGowan,0,1
+Steve Newsom,0,1
+Teresa Newsom,1,1
+Camilla Sampson,0,1
+Jim Schmidt,0,1
+Laurie Schmidt,0,1
+Melissa  Slaback,0,1
+Mike Slaback,0,1
+Gabe Wolcott,1,0
+Micah Sanger,1,0
+Mike Sanger,0,1
+Jim  Ross,1,1
+Leanne Ross,1,1
+Shane Wilson,0,1
+Cindy  Hughes,1,0
+Christie Kabrich,0,1
+Dave Halter,1,0
+Rodney Goodlette,0,1
+Nick Hord,0,1
+Dave Cannella,0,2
+Larry Hanahan,0,1
+Jim Hitt,0,1
+Jerome Hand,1,1
+Kirk DouPonce,0,1
+Steve Hemschoot,1,1
+Eric Winton,0,1
+Julie Joy,0,1
+Coleen Hellen,1,1
+Player45,1,1
+Player46,0,1
+Player47,1,0
+Player48,0,1
 
 
-PlayerReport for player: D1
+PlayerReport for player: Dennis McGowan
 Partner,PartnerCount,OpponentCount
-A1,0,1
-A2,1,1
-B1,0,1
-B2,0,1
-C1,0,1
-C2,0,1
-D2,2,1
-E1,0,2
-E2,0,1
-F1,1,0
-I1,0,1
-I2,0,2
-J1,0,1
-J2,0,1
-K1,0,1
-K2,1,0
-L1,1,0
-M1,0,1
-N1,0,1
-N2,0,1
-O1,0,1
-O2,1,0
-P1,1,0
-P2,1,1
-Q1,0,1
-R2,1,1
-S1,0,1
-S2,1,0
-T1,0,1
-T2,1,1
-U1,1,1
-U2,0,1
-W1,2,1
-W2,0,1
-Y1,0,1
-Y2,1,1
+Susan  Bernabie,1,1
+Marilyn Gray,0,1
+Wayne Gray,0,1
+Tristan Maddox,1,1
+Lindsey Mannix,1,0
+Wendy McGowan,2,1
+Steve Newsom,0,2
+Camilla Sampson,0,1
+Jim Schmidt,0,1
+Laurie Schmidt,1,1
+Melissa  Slaback,0,1
+Mike Slaback,0,2
+Angela Wolcott,0,2
+Gabe Wolcott,0,1
+Micah Sanger,0,1
+Mike Sanger,0,1
+Jim  Ross,1,0
+Leanne Ross,1,0
+Shane Wilson,1,0
+Christie Kabrich,0,1
+Dave Halter,1,0
+Rodney Goodlette,0,1
+Michael Mitvalsky,1,1
+Nick Hord,0,1
+Dan Balantyne,1,1
+Larry Hanahan,0,1
+Jim Hitt,0,2
+Jerome Hand,1,1
+Kirk DouPonce,1,0
+Steve Hemschoot,0,1
+Sean Smith,1,1
+Eric Winton,1,0
+Karla Bloom,0,1
+Coleen Hellen,0,1
+Player47,0,1
 
 
-PlayerReport for player: D2
+PlayerReport for player: Wendy McGowan
 Partner,PartnerCount,OpponentCount
-B1,0,2
-C1,0,1
-C2,0,1
-D1,2,1
-E1,2,0
-E2,1,1
-F1,1,1
-F2,1,0
-G1,0,1
-G2,0,1
-H2,0,1
-I1,0,1
-J2,1,2
-K2,1,1
-L1,0,1
-M1,1,0
-M2,0,1
-N1,1,0
-N2,0,1
-O1,1,0
-O2,0,1
-P1,0,1
-P2,0,1
-Q1,0,1
-Q2,0,1
-R1,0,1
-S1,1,1
-S2,1,0
-T1,0,1
-U1,0,2
-V1,1,1
-W1,0,1
-W2,1,0
-Y1,0,2
-Y2,0,1
+Richard Bernabiae,0,1
+Susan  Bernabie,1,1
+Tristan Maddox,1,1
+Lindsey Mannix,0,1
+Dennis McGowan,2,1
+Camilla Sampson,1,1
+Jacob Sampson,0,1
+Jim Schmidt,1,0
+Laurie Schmidt,1,0
+Melissa  Slaback,0,1
+Mike Slaback,0,1
+Angela Wolcott,0,1
+Gabe Wolcott,0,1
+Micah Sanger,0,1
+Mike Sanger,1,1
+Jim  Ross,0,1
+Dave Halter,0,1
+Rodney Goodlette,0,2
+Michael Mitvalsky,0,1
+Dan Balantyne,1,0
+Ron Billings,0,1
+Dave Cannella,0,1
+Larry Hanahan,0,1
+Jim Hitt,3,0
+Kirk DouPonce,0,1
+John Alessi,0,1
+Steve Hemschoot,1,0
+Ron Thibedeau,1,2
+Sean Smith,0,1
+Eric Winton,0,1
+Julie Joy,0,1
+Karla Bloom,0,1
+Coleen Hellen,0,1
+Player46,1,0
+Player47,1,1
+Player48,0,1
 
 
-PlayerReport for player: E1
+PlayerReport for player: Steve Newsom
 Partner,PartnerCount,OpponentCount
-A1,0,2
-A2,0,2
-B1,1,0
-B2,1,0
-C1,1,1
-C2,1,1
-D1,0,2
-D2,2,0
-E2,2,1
-F1,0,1
-F2,0,1
-G1,0,1
-G2,0,1
-H1,0,1
-I1,1,0
-I2,0,1
-J1,1,1
-K1,0,1
-L1,0,1
-L2,1,0
-M1,1,0
-M2,0,1
-N2,0,1
-O1,0,1
-O2,0,1
-P2,0,1
-Q1,1,0
-R1,0,1
-S2,0,1
-T1,0,2
-U1,0,1
-U2,1,0
-V1,1,0
-V2,0,1
-W1,0,1
-W2,0,1
-Y1,1,0
-Y2,0,1
+Susan  Bernabie,0,1
+Marilyn Gray,1,1
+Wayne Gray,1,1
+Lindsey Mannix,0,1
+Dennis McGowan,0,2
+Teresa Newsom,2,1
+Jacob Sampson,0,1
+Jim Schmidt,0,1
+Laurie Schmidt,1,1
+Melissa  Slaback,1,0
+Mike Slaback,1,0
+Angela Wolcott,1,1
+Gabe Wolcott,0,1
+Micah Sanger,1,1
+Mike Sanger,1,1
+Jim  Ross,0,1
+Leanne Ross,1,0
+Shane Wilson,0,1
+Christie Kabrich,1,0
+Dave Halter,0,1
+Rodney Goodlette,0,1
+Michael Mitvalsky,0,1
+Nick Hord,0,1
+Dan Balantyne,1,0
+Ron Billings,0,1
+Dave Cannella,0,1
+Larry Hanahan,0,1
+Jim Hitt,0,1
+Steve Hemschoot,1,1
+Ron Thibedeau,0,1
+Sean Smith,1,0
+Eric Winton,1,1
+Karla Bloom,0,1
+Coleen Hellen,0,1
+Player46,0,1
+Player47,0,1
+Player48,0,1
 
 
-PlayerReport for player: E2
+PlayerReport for player: Teresa Newsom
 Partner,PartnerCount,OpponentCount
-A1,0,2
-A2,0,1
-B1,0,1
-B2,1,1
-C1,1,1
-C2,1,1
-D1,0,1
-D2,1,1
-E1,2,1
-F1,0,1
-F2,0,1
-G1,1,1
-G2,0,1
-H1,1,0
-H2,1,1
-I1,0,1
-I2,0,1
-J1,0,1
-K1,1,0
-K2,0,1
-L2,0,1
-M1,1,0
-M2,1,1
-N1,0,1
-N2,1,0
-O2,0,1
-P2,0,1
-Q1,0,1
-R2,0,1
-S1,0,1
-S2,0,1
-T1,0,1
-U1,1,0
-U2,1,1
-V2,0,1
-W1,0,1
-Y1,1,0
+Wayne Gray,0,2
+Lindsey Mannix,1,1
+Steve Newsom,2,1
+Camilla Sampson,0,1
+Jacob Sampson,1,0
+Jim Schmidt,0,1
+Laurie Schmidt,0,2
+Melissa  Slaback,2,0
+Angela Wolcott,1,1
+Gabe Wolcott,0,2
+Micah Sanger,1,0
+Mike Sanger,1,0
+Jim  Ross,0,2
+Leanne Ross,1,1
+Shane Wilson,0,1
+Cindy  Hughes,0,1
+Christie Kabrich,0,1
+Dave Halter,1,0
+Rodney Goodlette,0,1
+Michael Mitvalsky,1,1
+Dan Balantyne,0,1
+Ron Billings,0,1
+Dave Cannella,1,1
+Jim Hitt,0,1
+Kirk DouPonce,1,0
+Steve Hemschoot,1,0
+Ron Thibedeau,0,1
+Sean Smith,0,1
+Eric Winton,0,1
+Julie Joy,0,1
+Karla Bloom,0,1
+Coleen Hellen,1,1
+Player45,0,1
+Player47,0,1
+Player48,0,1
 
 
-PlayerReport for player: F1
+PlayerReport for player: Camilla Sampson
 Partner,PartnerCount,OpponentCount
-A1,0,1
-A2,0,1
-B1,1,0
-C1,1,0
-C2,0,1
-D1,1,0
-D2,1,1
-E1,0,1
-E2,0,1
-F2,2,0
-G1,1,1
-G2,2,1
-H1,0,1
-H2,0,1
-J1,0,1
-J2,0,1
-K1,1,0
-K2,0,1
-L1,1,0
-L2,0,1
-M1,0,2
-M2,0,1
-O1,0,1
-O2,0,1
-P1,2,0
-P2,0,1
-Q1,0,1
-Q2,1,1
-R1,0,1
-S1,0,1
-T2,0,1
-U1,1,1
-U2,0,1
-V1,0,1
-V2,0,1
-W1,0,1
-W2,0,1
-Y1,0,1
-Y2,1,0
+Susan  Bernabie,0,1
+Lindsey Mannix,0,1
+Dennis McGowan,0,1
+Wendy McGowan,1,1
+Teresa Newsom,0,1
+Jacob Sampson,2,1
+Laurie Schmidt,0,1
+Melissa  Slaback,0,1
+Mike Slaback,1,1
+Angela Wolcott,0,1
+Gabe Wolcott,0,1
+Micah Sanger,1,1
+Mike Sanger,1,0
+Leanne Ross,0,1
+Shane Wilson,0,1
+Cindy  Hughes,1,0
+Christie Kabrich,0,1
+Dave Halter,0,1
+Rodney Goodlette,0,1
+Michael Mitvalsky,1,0
+Dan Balantyne,0,1
+Larry Hanahan,1,1
+Jim Hitt,0,2
+Jerome Hand,0,1
+Kirk DouPonce,3,1
+Steve Hemschoot,0,1
+Ron Thibedeau,1,0
+Sean Smith,0,1
+Eric Winton,1,1
+Julie Joy,0,1
+Coleen Hellen,1,1
+Player45,0,1
+Player46,0,1
+Player47,1,1
+Player48,0,1
 
 
-PlayerReport for player: F2
+PlayerReport for player: Jacob Sampson
 Partner,PartnerCount,OpponentCount
-A1,0,1
-B1,0,1
-B2,0,1
-C2,0,1
-D2,1,0
-E1,0,1
-E2,0,1
-F1,2,0
-G1,1,0
-G2,0,1
-H1,1,1
-H2,1,2
-I1,1,0
-I2,1,0
-K1,0,1
-K2,0,1
-M1,0,1
-M2,0,1
-O1,1,1
-O2,0,1
-P2,0,1
-Q1,0,1
-Q2,0,1
-R1,0,1
-R2,2,2
-S2,1,0
-T1,1,1
-T2,0,1
-U1,0,2
-U2,1,1
-V1,0,2
-V2,1,0
-W2,0,1
-Y1,1,0
-Y2,0,2
+Richard Bernabiae,0,1
+Susan  Bernabie,1,1
+Marilyn Gray,1,1
+Wayne Gray,0,1
+Tristan Maddox,1,1
+Wendy McGowan,0,1
+Steve Newsom,0,1
+Teresa Newsom,1,0
+Camilla Sampson,2,1
+Jim Schmidt,2,0
+Laurie Schmidt,0,2
+Melissa  Slaback,0,2
+Mike Slaback,0,1
+Angela Wolcott,0,1
+Gabe Wolcott,1,0
+Micah Sanger,1,1
+Shane Wilson,1,0
+Christie Kabrich,0,1
+Dave Halter,0,1
+Michael Mitvalsky,0,2
+Nick Hord,0,1
+Dan Balantyne,0,1
+Ron Billings,0,1
+Larry Hanahan,1,0
+Jim Hitt,1,0
+Jerome Hand,0,1
+John Alessi,0,1
+Steve Hemschoot,1,1
+Sean Smith,0,1
+Eric Winton,1,0
+Julie Joy,0,1
+Karla Bloom,0,1
+Coleen Hellen,0,1
+Player45,0,1
+Player47,0,1
+Player48,1,1
 
 
-PlayerReport for player: G1
+PlayerReport for player: Jim Schmidt
 Partner,PartnerCount,OpponentCount
-A2,1,0
-B2,0,1
-C1,1,1
-C2,0,1
-D2,0,1
-E1,0,1
-E2,1,1
-F1,1,1
-F2,1,0
-G2,2,1
-H2,0,1
-I1,0,1
-I2,0,1
-J1,0,1
-J2,0,1
-K1,1,1
-K2,0,1
-L1,0,1
-L2,0,2
-N2,0,1
-O1,1,0
-O2,0,1
-P1,0,1
-P2,1,0
-Q1,0,1
-Q2,0,1
-R1,1,0
-S1,0,1
-T1,1,1
-U1,1,0
-U2,1,1
-V1,0,1
-V2,1,1
-W2,0,2
-Y1,0,1
-Y2,1,1
+Richard Bernabiae,1,1
+Susan  Bernabie,0,1
+Marilyn Gray,1,1
+Wayne Gray,0,1
+Tristan Maddox,0,1
+Lindsey Mannix,0,1
+Dennis McGowan,0,1
+Wendy McGowan,1,0
+Steve Newsom,0,1
+Teresa Newsom,0,1
+Jacob Sampson,2,0
+Laurie Schmidt,2,1
+Melissa  Slaback,0,2
+Mike Slaback,0,1
+Angela Wolcott,0,1
+Micah Sanger,1,0
+Jim  Ross,0,1
+Leanne Ross,1,1
+Shane Wilson,0,2
+Cindy  Hughes,0,1
+Christie Kabrich,1,1
+Dave Halter,0,2
+Dan Balantyne,1,0
+Ron Billings,0,1
+Dave Cannella,0,1
+Jerome Hand,1,1
+John Alessi,0,1
+Eric Winton,0,1
+Julie Joy,0,1
+Karla Bloom,1,2
+Player45,2,0
+Player46,1,0
+Player47,0,1
+Player48,0,1
 
 
-PlayerReport for player: G2
+PlayerReport for player: Laurie Schmidt
 Partner,PartnerCount,OpponentCount
-A1,1,0
-B1,0,1
-B2,1,1
-C1,0,1
-C2,0,1
-D2,0,1
-E1,0,1
-E2,0,1
-F1,2,1
-F2,0,1
-G1,2,1
-H2,0,1
-I1,0,1
-I2,0,1
-J1,1,1
-K1,0,1
-K2,1,3
-L1,1,1
-L2,0,1
-M1,1,0
-M2,1,1
-N1,0,2
-P2,1,1
-Q1,1,0
-Q2,0,1
-R1,0,1
-S1,1,1
-S2,0,1
-T2,1,0
-U1,0,1
-U2,0,1
-V1,1,0
-W2,0,1
-Y2,0,1
+Marilyn Gray,1,1
+Tristan Maddox,0,1
+Lindsey Mannix,0,1
+Dennis McGowan,1,1
+Wendy McGowan,1,0
+Steve Newsom,1,1
+Teresa Newsom,0,2
+Camilla Sampson,0,1
+Jacob Sampson,0,2
+Jim Schmidt,2,1
+Melissa  Slaback,0,1
+Mike Slaback,1,1
+Jim  Ross,1,0
+Leanne Ross,0,1
+Shane Wilson,0,1
+Cindy  Hughes,0,1
+Christie Kabrich,1,0
+Dave Halter,0,1
+Rodney Goodlette,0,1
+Michael Mitvalsky,0,1
+Nick Hord,1,1
+Dan Balantyne,0,1
+Dave Cannella,0,1
+Larry Hanahan,0,1
+Jim Hitt,0,1
+Jerome Hand,1,0
+Kirk DouPonce,0,1
+John Alessi,1,1
+Steve Hemschoot,0,1
+Ron Thibedeau,0,1
+Eric Winton,2,0
+Julie Joy,1,0
+Karla Bloom,0,1
+Coleen Hellen,0,1
+Player45,0,1
+Player46,1,0
+Player48,0,1
 
 
-PlayerReport for player: H1
+PlayerReport for player: Melissa  Slaback
 Partner,PartnerCount,OpponentCount
-C1,0,1
-E1,0,1
-E2,1,0
-F1,0,1
-F2,1,1
-H2,2,1
-I1,0,1
-I2,1,0
-J1,0,1
-J2,1,0
-K1,0,1
-K2,0,1
-L1,0,1
-L2,1,1
-M1,0,1
-M2,1,0
-N1,1,1
-N2,2,0
-O1,1,0
-O2,1,0
-P1,0,1
-P2,0,1
-Q1,0,1
-Q2,0,2
-R1,1,0
-R2,0,1
-S1,0,1
-S2,0,1
-T1,0,1
-T2,0,1
-U1,1,1
-U2,1,1
-V1,0,1
-V2,0,2
-W1,0,1
-W2,0,1
-Y1,0,1
-Y2,0,1
+Susan  Bernabie,0,1
+Marilyn Gray,0,1
+Lindsey Mannix,0,1
+Dennis McGowan,0,1
+Wendy McGowan,0,1
+Steve Newsom,1,0
+Teresa Newsom,2,0
+Camilla Sampson,0,1
+Jacob Sampson,0,2
+Jim Schmidt,0,2
+Laurie Schmidt,0,1
+Mike Slaback,2,0
+Micah Sanger,0,1
+Mike Sanger,1,1
+Jim  Ross,0,1
+Leanne Ross,0,1
+Shane Wilson,0,1
+Cindy  Hughes,0,1
+Christie Kabrich,0,1
+Rodney Goodlette,0,1
+Michael Mitvalsky,1,1
+Nick Hord,0,1
+Dan Balantyne,0,1
+Ron Billings,2,0
+Dave Cannella,1,1
+Larry Hanahan,1,0
+Jim Hitt,1,1
+Jerome Hand,0,1
+Kirk DouPonce,0,1
+John Alessi,0,1
+Steve Hemschoot,0,1
+Ron Thibedeau,1,0
+Sean Smith,0,1
+Julie Joy,1,0
+Karla Bloom,1,0
+Coleen Hellen,0,1
+Player46,0,1
+Player47,0,1
+Player48,1,0
 
 
-PlayerReport for player: H2
+PlayerReport for player: Mike Slaback
 Partner,PartnerCount,OpponentCount
-A1,1,0
-A2,1,0
-B1,0,1
-B2,1,0
-C1,1,1
-D2,0,1
-E2,1,1
-F1,0,1
-F2,1,2
-G1,0,1
-G2,0,1
-H1,2,1
-I1,1,1
-I2,0,2
-J1,0,1
-J2,0,1
-K1,0,1
-K2,0,1
-L1,2,0
-M1,0,1
-M2,0,1
-N2,1,0
-O2,1,1
-P2,0,1
-Q1,0,1
-Q2,1,0
-R1,0,1
-R2,0,1
-S2,0,1
-T2,0,1
-U1,0,1
-U2,0,1
-V1,0,1
-V2,0,1
-W1,1,0
-W2,1,0
-Y1,0,1
-Y2,0,1
+Richard Bernabiae,0,2
+Susan  Bernabie,1,0
+Marilyn Gray,0,1
+Lindsey Mannix,0,1
+Dennis McGowan,0,2
+Wendy McGowan,0,1
+Steve Newsom,1,0
+Camilla Sampson,1,1
+Jacob Sampson,0,1
+Jim Schmidt,0,1
+Laurie Schmidt,1,1
+Melissa  Slaback,2,0
+Angela Wolcott,1,0
+Gabe Wolcott,0,1
+Mike Sanger,0,1
+Jim  Ross,0,1
+Shane Wilson,0,1
+Cindy  Hughes,0,1
+Christie Kabrich,0,2
+Rodney Goodlette,2,0
+Michael Mitvalsky,0,1
+Nick Hord,0,1
+Dan Balantyne,0,1
+Dave Cannella,1,0
+Jim Hitt,0,1
+Jerome Hand,0,2
+Kirk DouPonce,1,1
+John Alessi,1,0
+Ron Thibedeau,0,1
+Sean Smith,1,1
+Eric Winton,1,1
+Julie Joy,0,1
+Coleen Hellen,0,1
+Player45,1,0
+Player46,1,0
+Player47,0,1
+Player48,0,1
 
 
-PlayerReport for player: I1
+PlayerReport for player: Angela Wolcott
 Partner,PartnerCount,OpponentCount
-A1,0,1
-A2,0,1
-C1,0,1
-C2,2,0
-D1,0,1
-D2,0,1
-E1,1,0
-E2,0,1
-F2,1,0
-G1,0,1
-G2,0,1
-H1,0,1
-H2,1,1
-I2,2,1
-J1,0,1
-J2,0,1
-K2,1,0
-L1,1,0
-L2,1,1
-M2,1,1
-N1,0,1
-N2,0,1
-O1,0,1
-P2,0,2
-Q2,1,2
-R1,1,1
-R2,0,1
-S2,1,1
-T1,0,1
-T2,0,1
-U2,0,1
-V1,1,0
-V2,0,1
-W1,0,1
-Y1,0,1
-Y2,1,1
+Richard Bernabiae,0,2
+Susan  Bernabie,1,1
+Marilyn Gray,0,1
+Wayne Gray,1,1
+Dennis McGowan,0,2
+Wendy McGowan,0,1
+Steve Newsom,1,1
+Teresa Newsom,1,1
+Camilla Sampson,0,1
+Jacob Sampson,0,1
+Jim Schmidt,0,1
+Mike Slaback,1,0
+Gabe Wolcott,2,1
+Micah Sanger,1,0
+Mike Sanger,0,1
+Leanne Ross,0,1
+Shane Wilson,0,1
+Cindy  Hughes,1,1
+Christie Kabrich,1,1
+Dave Halter,0,2
+Michael Mitvalsky,0,1
+Nick Hord,0,1
+Dan Balantyne,0,1
+Ron Billings,1,0
+Dave Cannella,1,0
+Jerome Hand,0,1
+Kirk DouPonce,0,1
+John Alessi,0,1
+Steve Hemschoot,1,1
+Ron Thibedeau,1,1
+Karla Bloom,0,1
+Player45,1,1
+Player46,1,0
+Player48,0,1
 
 
-PlayerReport for player: I2
+PlayerReport for player: Gabe Wolcott
 Partner,PartnerCount,OpponentCount
-A1,1,1
-A2,0,1
-B1,0,1
-B2,1,0
-C1,1,0
-D1,0,2
-E1,0,1
-E2,0,1
-F2,1,0
-G1,0,1
-G2,0,1
-H1,1,0
-H2,0,2
-I1,2,1
-J1,0,2
-J2,1,1
-K1,1,0
-K2,1,0
-L2,0,1
-M1,1,1
-M2,0,2
-N1,1,0
-N2,0,1
-O1,1,0
-P1,0,1
-P2,0,1
-Q1,0,1
-R2,1,0
-S1,0,1
-S2,0,1
-T1,1,1
-T2,0,1
-U2,0,1
-V1,1,1
-W2,0,1
-Y1,0,1
-Y2,0,1
+Richard Bernabiae,0,1
+Marilyn Gray,1,0
+Wayne Gray,1,0
+Tristan Maddox,1,1
+Lindsey Mannix,1,0
+Dennis McGowan,0,1
+Wendy McGowan,0,1
+Steve Newsom,0,1
+Teresa Newsom,0,2
+Camilla Sampson,0,1
+Jacob Sampson,1,0
+Mike Slaback,0,1
+Angela Wolcott,2,1
+Mike Sanger,0,1
+Leanne Ross,1,1
+Shane Wilson,1,0
+Cindy  Hughes,0,1
+Christie Kabrich,0,1
+Dave Halter,0,1
+Rodney Goodlette,0,1
+Michael Mitvalsky,0,1
+Nick Hord,0,1
+Dan Balantyne,1,1
+Ron Billings,0,1
+Dave Cannella,0,1
+Larry Hanahan,1,0
+Kirk DouPonce,0,1
+John Alessi,0,2
+Steve Hemschoot,0,2
+Ron Thibedeau,0,1
+Sean Smith,0,1
+Eric Winton,1,0
+Julie Joy,0,1
+Karla Bloom,0,1
+Coleen Hellen,0,1
+Player45,2,0
+Player46,0,1
+Player47,1,0
+Player48,1,0
 
 
-PlayerReport for player: J1
+PlayerReport for player: Micah Sanger
 Partner,PartnerCount,OpponentCount
-A1,0,1
-A2,0,1
-B1,0,1
-B2,0,1
-C2,0,1
-D1,0,1
-E1,1,1
-E2,0,1
-F1,0,1
-G1,0,1
-G2,1,1
-H1,0,1
-H2,0,1
-I1,0,1
-I2,0,2
-J2,2,1
-K1,0,1
-K2,1,0
-L1,0,1
-L2,2,0
-M1,1,0
-M2,0,1
-N1,0,1
-N2,0,1
-O1,1,0
-P1,0,1
-Q1,1,1
-Q2,1,0
-R1,0,1
-S1,0,1
-S2,3,1
-T1,0,1
-U2,0,1
-V1,0,1
-V2,0,1
-W1,1,0
-W2,0,1
-Y2,1,0
+Richard Bernabiae,0,1
+Susan  Bernabie,1,1
+Lindsey Mannix,1,0
+Dennis McGowan,0,1
+Wendy McGowan,0,1
+Steve Newsom,1,1
+Teresa Newsom,1,0
+Camilla Sampson,1,1
+Jacob Sampson,1,1
+Jim Schmidt,1,0
+Melissa  Slaback,0,1
+Angela Wolcott,1,0
+Mike Sanger,2,0
+Jim  Ross,0,1
+Leanne Ross,0,1
+Shane Wilson,0,1
+Cindy  Hughes,0,1
+Christie Kabrich,0,1
+Rodney Goodlette,1,1
+Nick Hord,1,1
+Dan Balantyne,0,1
+Ron Billings,0,1
+Dave Cannella,0,1
+Larry Hanahan,0,1
+Jim Hitt,0,1
+Jerome Hand,0,2
+Kirk DouPonce,0,2
+John Alessi,1,1
+Ron Thibedeau,0,1
+Sean Smith,0,1
+Eric Winton,0,1
+Julie Joy,1,1
+Coleen Hellen,1,1
+Player45,0,1
+Player46,0,1
+Player47,1,0
 
 
-PlayerReport for player: J2
+PlayerReport for player: Mike Sanger
 Partner,PartnerCount,OpponentCount
-A1,0,1
-A2,1,0
-B1,0,1
-B2,0,1
-C1,0,1
-C2,1,0
-D1,0,1
-D2,1,2
-F1,0,1
-G1,0,1
-H1,1,0
-H2,0,1
-I1,0,1
-I2,1,1
-J1,2,1
-K2,0,1
-L2,0,1
-M1,0,1
-M2,1,0
-O1,0,2
-O2,1,0
-P1,1,1
-Q2,1,1
-R1,1,1
-R2,1,1
-S1,0,1
-S2,0,1
-T1,0,1
-T2,0,1
-U1,1,0
-V1,0,1
-V2,0,1
-W1,1,1
-W2,1,1
-Y1,0,1
-Y2,0,1
+Richard Bernabiae,0,1
+Susan  Bernabie,0,1
+Marilyn Gray,1,0
+Tristan Maddox,1,1
+Lindsey Mannix,0,1
+Dennis McGowan,0,1
+Wendy McGowan,1,1
+Steve Newsom,1,1
+Teresa Newsom,1,0
+Camilla Sampson,1,0
+Melissa  Slaback,1,1
+Mike Slaback,0,1
+Angela Wolcott,0,1
+Gabe Wolcott,0,1
+Micah Sanger,2,0
+Jim  Ross,1,1
+Shane Wilson,0,1
+Cindy  Hughes,0,1
+Dave Halter,1,0
+Nick Hord,1,0
+Dan Balantyne,0,1
+Ron Billings,0,1
+Dave Cannella,0,1
+Larry Hanahan,0,1
+Jim Hitt,1,1
+Jerome Hand,0,2
+Kirk DouPonce,0,1
+John Alessi,2,0
+Steve Hemschoot,0,1
+Sean Smith,0,2
+Eric Winton,0,1
+Julie Joy,1,1
+Karla Bloom,0,1
+Coleen Hellen,0,1
+Player46,0,1
+Player47,0,1
+Player48,0,1
 
 
-PlayerReport for player: K1
+PlayerReport for player: Jim  Ross
 Partner,PartnerCount,OpponentCount
-A2,0,1
-B2,0,1
-C2,1,0
-D1,0,1
-E1,0,1
-E2,1,0
-F1,1,0
-F2,0,1
-G1,1,1
-G2,0,1
-H1,0,1
-H2,0,1
-I2,1,0
-J1,0,1
-K2,2,1
-L2,0,1
-M1,0,1
-M2,0,1
-N1,0,1
-N2,1,1
-O1,0,1
-O2,2,2
-P2,0,1
-Q1,0,1
-R1,1,1
-R2,0,2
-S2,0,1
-T1,1,0
-T2,0,1
-U1,1,1
-U2,0,1
-V1,0,1
-V2,1,0
-W2,1,0
-Y1,0,1
-Y2,1,2
+Richard Bernabiae,0,1
+Marilyn Gray,1,1
+Wayne Gray,1,1
+Lindsey Mannix,1,1
+Dennis McGowan,1,0
+Wendy McGowan,0,1
+Steve Newsom,0,1
+Teresa Newsom,0,2
+Jim Schmidt,0,1
+Laurie Schmidt,1,0
+Melissa  Slaback,0,1
+Mike Slaback,0,1
+Micah Sanger,0,1
+Mike Sanger,1,1
+Leanne Ross,3,1
+Shane Wilson,0,1
+Dave Halter,0,1
+Rodney Goodlette,1,2
+Michael Mitvalsky,0,1
+Nick Hord,0,1
+Ron Billings,1,1
+Dave Cannella,1,0
+Larry Hanahan,1,0
+Jerome Hand,0,1
+John Alessi,0,1
+Steve Hemschoot,0,2
+Ron Thibedeau,0,1
+Sean Smith,0,2
+Eric Winton,1,0
+Julie Joy,0,1
+Karla Bloom,1,1
+Coleen Hellen,0,1
+Player47,1,0
+Player48,0,1
 
 
-PlayerReport for player: K2
+PlayerReport for player: Leanne Ross
 Partner,PartnerCount,OpponentCount
-A1,0,1
-A2,0,1
-B1,0,1
-B2,1,1
-C2,0,1
-D1,1,0
-D2,1,1
-E2,0,1
-F1,0,1
-F2,0,1
-G1,0,1
-G2,1,3
-H1,0,1
-H2,0,1
-I1,1,0
-I2,1,0
-J1,1,0
-J2,0,1
-K1,2,1
-L1,1,0
-M1,0,1
-M2,0,2
-N1,1,0
-N2,0,1
-O1,0,1
-O2,0,1
-P1,1,0
-Q1,0,1
-Q2,1,0
-R1,1,0
-R2,0,1
-T1,1,1
-T2,1,1
-U2,0,1
-V2,0,1
-W2,0,1
-Y1,0,1
-Y2,0,1
+Richard Bernabiae,0,2
+Marilyn Gray,0,2
+Wayne Gray,0,1
+Tristan Maddox,0,1
+Lindsey Mannix,1,1
+Dennis McGowan,1,0
+Steve Newsom,1,0
+Teresa Newsom,1,1
+Camilla Sampson,0,1
+Jim Schmidt,1,1
+Laurie Schmidt,0,1
+Melissa  Slaback,0,1
+Angela Wolcott,0,1
+Gabe Wolcott,1,1
+Micah Sanger,0,1
+Jim  Ross,3,1
+Shane Wilson,0,1
+Christie Kabrich,1,0
+Dave Halter,0,2
+Rodney Goodlette,0,1
+Michael Mitvalsky,0,1
+Nick Hord,1,1
+Ron Billings,0,1
+Larry Hanahan,0,1
+Kirk DouPonce,0,1
+John Alessi,1,1
+Steve Hemschoot,0,1
+Ron Thibedeau,0,1
+Sean Smith,1,0
+Julie Joy,1,0
+Karla Bloom,1,1
+Coleen Hellen,0,1
+Player46,0,1
+Player48,1,1
 
 
-PlayerReport for player: L1
+PlayerReport for player: Shane Wilson
 Partner,PartnerCount,OpponentCount
-A1,0,1
-A2,1,1
-B1,1,1
-B2,0,1
-C1,0,1
-C2,0,1
-D1,1,0
-D2,0,1
-E1,0,1
-F1,1,0
-G1,0,1
-G2,1,1
-H1,0,1
-H2,2,0
-I1,1,0
-J1,0,1
-K2,1,0
-L2,3,1
-M1,0,1
-M2,1,1
-N1,0,1
-N2,0,1
-P1,0,1
-Q1,0,1
-Q2,0,2
-S1,1,1
-S2,0,2
-T1,0,1
-T2,2,1
-U2,0,1
-V1,0,1
-V2,0,1
-W1,0,1
-Y1,0,1
-Y2,0,1
+Susan  Bernabie,0,1
+Wayne Gray,1,0
+Tristan Maddox,0,1
+Lindsey Mannix,0,1
+Dennis McGowan,1,0
+Steve Newsom,0,1
+Teresa Newsom,0,1
+Camilla Sampson,0,1
+Jacob Sampson,1,0
+Jim Schmidt,0,2
+Laurie Schmidt,0,1
+Melissa  Slaback,0,1
+Mike Slaback,0,1
+Angela Wolcott,0,1
+Gabe Wolcott,1,0
+Micah Sanger,0,1
+Mike Sanger,0,1
+Jim  Ross,0,1
+Leanne Ross,0,1
+Cindy  Hughes,2,1
+Dave Halter,1,0
+Rodney Goodlette,1,1
+Nick Hord,0,1
+Dan Balantyne,2,0
+Ron Billings,0,1
+Dave Cannella,0,1
+Larry Hanahan,0,1
+Jerome Hand,0,1
+John Alessi,0,1
+Steve Hemschoot,0,1
+Sean Smith,1,1
+Eric Winton,1,1
+Julie Joy,0,1
+Karla Bloom,1,1
+Coleen Hellen,1,0
+Player45,1,1
+Player46,0,1
+Player47,0,1
+Player48,1,0
 
 
-PlayerReport for player: L2
+PlayerReport for player: Cindy  Hughes
 Partner,PartnerCount,OpponentCount
-A1,0,1
-A2,1,0
-B1,0,1
-B2,0,1
-C2,0,1
-E1,1,0
-E2,0,1
-F1,0,1
-G1,0,2
-G2,0,1
-H1,1,1
-I1,1,1
-I2,0,1
-J1,2,0
-J2,0,1
-K1,0,1
-L1,3,1
-M1,0,1
-M2,0,1
-N1,0,2
-O1,0,1
-P1,0,1
-P2,1,0
-Q1,0,1
-Q2,1,1
-R1,0,1
-S1,0,1
-S2,0,2
-T1,0,1
-T2,0,1
-U2,1,0
-V1,1,0
-V2,0,1
-W1,0,1
-W2,0,1
-Y1,1,0
-Y2,2,0
+Richard Bernabiae,1,1
+Susan  Bernabie,0,1
+Marilyn Gray,1,0
+Wayne Gray,0,1
+Tristan Maddox,1,1
+Lindsey Mannix,1,0
+Teresa Newsom,0,1
+Camilla Sampson,1,0
+Jim Schmidt,0,1
+Laurie Schmidt,0,1
+Melissa  Slaback,0,1
+Mike Slaback,0,1
+Angela Wolcott,1,1
+Gabe Wolcott,0,1
+Micah Sanger,0,1
+Mike Sanger,0,1
+Shane Wilson,2,1
+Christie Kabrich,0,1
+Rodney Goodlette,1,0
+Michael Mitvalsky,0,1
+Nick Hord,0,1
+Dan Balantyne,0,1
+Ron Billings,0,1
+Dave Cannella,1,1
+Larry Hanahan,0,1
+Jim Hitt,0,1
+Jerome Hand,0,1
+Kirk DouPonce,1,0
+Steve Hemschoot,1,1
+Ron Thibedeau,1,1
+Sean Smith,0,2
+Eric Winton,0,1
+Julie Joy,0,1
+Coleen Hellen,0,1
+Player46,0,1
+Player47,1,1
+Player48,2,0
 
 
-PlayerReport for player: M1
+PlayerReport for player: Christie Kabrich
 Partner,PartnerCount,OpponentCount
-A1,1,0
-A2,0,1
-B1,2,1
-B2,1,2
-C1,0,1
-C2,0,1
-D1,0,1
-D2,1,0
-E1,1,0
-E2,1,0
-F1,0,2
-F2,0,1
-G2,1,0
-H1,0,1
-H2,0,1
-I2,1,1
-J1,1,0
-J2,0,1
-K1,0,1
-K2,0,1
-L1,0,1
-L2,0,1
-M2,2,2
-N2,0,1
-O1,1,0
-O2,0,1
-P1,0,1
-Q1,1,0
-R1,0,1
-T1,0,1
-T2,1,0
-V1,0,1
-V2,1,0
-W1,0,2
-W2,0,2
-Y1,0,1
-Y2,0,1
+Richard Bernabiae,0,1
+Marilyn Gray,0,1
+Wayne Gray,0,1
+Tristan Maddox,1,0
+Lindsey Mannix,0,1
+Dennis McGowan,0,1
+Steve Newsom,1,0
+Teresa Newsom,0,1
+Camilla Sampson,0,1
+Jacob Sampson,0,1
+Jim Schmidt,1,1
+Laurie Schmidt,1,0
+Melissa  Slaback,0,1
+Mike Slaback,0,2
+Angela Wolcott,1,1
+Gabe Wolcott,0,1
+Micah Sanger,0,1
+Leanne Ross,1,0
+Cindy  Hughes,0,1
+Dave Halter,2,1
+Rodney Goodlette,0,1
+Michael Mitvalsky,1,0
+Nick Hord,0,1
+Dan Balantyne,1,0
+Ron Billings,0,1
+Dave Cannella,1,1
+Larry Hanahan,0,1
+Jim Hitt,0,1
+Kirk DouPonce,0,1
+John Alessi,1,1
+Ron Thibedeau,0,1
+Eric Winton,0,1
+Julie Joy,2,1
+Karla Bloom,0,1
+Coleen Hellen,1,0
+Player45,0,1
+Player46,0,1
+Player47,1,0
+Player48,0,1
 
 
-PlayerReport for player: M2
+PlayerReport for player: Dave Halter
 Partner,PartnerCount,OpponentCount
-A1,0,1
-A2,1,0
-B1,0,1
-B2,0,1
-C1,1,1
-C2,0,1
-D2,0,1
-E1,0,1
-E2,1,1
-F1,0,1
-F2,0,1
-G2,1,1
-H1,1,0
-H2,0,1
-I1,1,1
-I2,0,2
-J1,0,1
-J2,1,0
-K1,0,1
-K2,0,2
-L1,1,1
-L2,0,1
-M1,2,2
-N1,0,1
-N2,0,1
-P1,1,1
-Q1,0,1
-Q2,0,1
-S1,1,0
-T2,0,1
-U1,2,0
-U2,0,1
-V1,2,0
-W1,0,1
-W2,0,1
+Wayne Gray,0,1
+Lindsey Mannix,1,0
+Dennis McGowan,1,0
+Wendy McGowan,0,1
+Steve Newsom,0,1
+Teresa Newsom,1,0
+Camilla Sampson,0,1
+Jacob Sampson,0,1
+Jim Schmidt,0,2
+Laurie Schmidt,0,1
+Angela Wolcott,0,2
+Gabe Wolcott,0,1
+Mike Sanger,1,0
+Jim  Ross,0,1
+Leanne Ross,0,2
+Shane Wilson,1,0
+Christie Kabrich,2,1
+Rodney Goodlette,1,0
+Nick Hord,1,0
+Dan Balantyne,0,1
+Ron Billings,0,2
+Dave Cannella,0,2
+Larry Hanahan,2,1
+Jim Hitt,0,1
+Kirk DouPonce,0,1
+Steve Hemschoot,0,1
+Ron Thibedeau,0,1
+Eric Winton,1,1
+Julie Joy,1,0
+Karla Bloom,2,1
+Coleen Hellen,0,1
+Player45,0,2
+Player46,0,1
+Player48,1,1
 
 
-PlayerReport for player: N1
+PlayerReport for player: Rodney Goodlette
 Partner,PartnerCount,OpponentCount
-A2,1,0
-B1,0,1
-B2,0,1
-C1,0,1
-C2,0,1
-D1,0,1
-D2,1,0
-E2,0,1
-G2,0,2
-H1,1,1
-I1,0,1
-I2,1,0
-J1,0,1
-K1,0,1
-K2,1,0
-L1,0,1
-L2,0,2
-M2,0,1
-N2,2,2
-O2,1,0
-P1,0,2
-Q1,0,1
-Q2,0,2
-R1,0,1
-R2,1,0
-S1,1,1
-S2,1,0
-T1,1,1
-T2,1,1
-U1,0,1
-U2,0,1
-V2,0,1
-W1,2,0
-W2,1,1
-Y1,0,1
+Richard Bernabiae,0,1
+Marilyn Gray,0,1
+Wayne Gray,1,1
+Tristan Maddox,1,0
+Lindsey Mannix,0,1
+Dennis McGowan,0,1
+Wendy McGowan,0,2
+Steve Newsom,0,1
+Teresa Newsom,0,1
+Camilla Sampson,0,1
+Laurie Schmidt,0,1
+Melissa  Slaback,0,1
+Mike Slaback,2,0
+Gabe Wolcott,0,1
+Micah Sanger,1,1
+Jim  Ross,1,2
+Leanne Ross,0,1
+Shane Wilson,1,1
+Cindy  Hughes,1,0
+Christie Kabrich,0,1
+Dave Halter,1,0
+Michael Mitvalsky,3,0
+Ron Billings,3,0
+Dave Cannella,0,1
+Larry Hanahan,0,1
+Jim Hitt,1,1
+Jerome Hand,0,1
+Steve Hemschoot,0,1
+Ron Thibedeau,0,1
+Sean Smith,0,1
+Eric Winton,0,1
+Julie Joy,0,1
+Karla Bloom,0,1
+Coleen Hellen,0,1
+Player46,0,1
+Player48,0,1
 
 
-PlayerReport for player: N2
+PlayerReport for player: Michael Mitvalsky
 Partner,PartnerCount,OpponentCount
-B1,2,0
-B2,0,1
-C2,0,1
-D1,0,1
-D2,0,1
-E1,0,1
-E2,1,0
-G1,0,1
-H1,2,0
-H2,1,0
-I1,0,1
-I2,0,1
-J1,0,1
-K1,1,1
-K2,0,1
-L1,0,1
-M1,0,1
-M2,0,1
-N1,2,2
-O1,0,1
-O2,0,1
-P1,0,1
-P2,0,2
-Q1,0,1
-Q2,0,1
-R1,1,1
-S1,3,1
-S2,0,1
-T2,0,1
-U1,0,1
-U2,0,2
-V1,0,1
-V2,2,1
-Y2,1,0
+Richard Bernabiae,0,1
+Susan  Bernabie,0,1
+Marilyn Gray,0,1
+Wayne Gray,1,1
+Dennis McGowan,1,1
+Wendy McGowan,0,1
+Steve Newsom,0,1
+Teresa Newsom,1,1
+Camilla Sampson,1,0
+Jacob Sampson,0,2
+Laurie Schmidt,0,1
+Melissa  Slaback,1,1
+Mike Slaback,0,1
+Angela Wolcott,0,1
+Gabe Wolcott,0,1
+Jim  Ross,0,1
+Leanne Ross,0,1
+Cindy  Hughes,0,1
+Christie Kabrich,1,0
+Rodney Goodlette,3,0
+Dan Balantyne,0,1
+Ron Billings,1,1
+Dave Cannella,0,1
+Jim Hitt,0,1
+Kirk DouPonce,0,1
+Steve Hemschoot,1,1
+Ron Thibedeau,0,1
+Sean Smith,0,1
+Eric Winton,0,1
+Julie Joy,1,1
+Karla Bloom,1,1
+Coleen Hellen,0,1
+Player45,1,0
+Player47,1,0
+Player48,1,2
 
 
-PlayerReport for player: O1
+PlayerReport for player: Nick Hord
 Partner,PartnerCount,OpponentCount
-A1,0,1
-A2,1,1
-C1,0,1
-C2,0,1
-D1,0,1
-D2,1,0
-E1,0,1
-F1,0,1
-F2,1,1
-G1,1,0
-H1,1,0
-I1,0,1
-I2,1,0
-J1,1,0
-J2,0,2
-K1,0,1
-K2,0,1
-L2,0,1
-M1,1,0
-N2,0,1
-O2,2,1
-P2,0,1
-Q2,1,0
-R1,1,2
-R2,2,3
-T1,0,1
-T2,0,2
-U1,0,1
-U2,1,2
-W1,0,1
-W2,0,1
-Y1,0,1
-Y2,1,1
+Richard Bernabiae,1,1
+Susan  Bernabie,1,1
+Wayne Gray,0,1
+Tristan Maddox,0,1
+Lindsey Mannix,0,1
+Dennis McGowan,0,1
+Steve Newsom,0,1
+Jacob Sampson,0,1
+Laurie Schmidt,1,1
+Melissa  Slaback,0,1
+Mike Slaback,0,1
+Angela Wolcott,0,1
+Gabe Wolcott,0,1
+Micah Sanger,1,1
+Mike Sanger,1,0
+Jim  Ross,0,1
+Leanne Ross,1,1
+Shane Wilson,0,1
+Cindy  Hughes,0,1
+Christie Kabrich,0,1
+Dave Halter,1,0
+Dan Balantyne,2,0
+Ron Billings,0,1
+Dave Cannella,0,2
+Larry Hanahan,0,1
+Jim Hitt,0,1
+Jerome Hand,1,0
+Kirk DouPonce,0,1
+John Alessi,1,1
+Ron Thibedeau,2,0
+Sean Smith,1,0
+Eric Winton,0,1
+Julie Joy,0,1
+Coleen Hellen,1,0
+Player45,0,1
+Player46,0,2
+Player47,1,1
 
 
-PlayerReport for player: O2
+PlayerReport for player: Dan Balantyne
 Partner,PartnerCount,OpponentCount
-A1,0,1
-A2,0,1
-B1,2,1
-C1,1,1
-D1,1,0
-D2,0,1
-E1,0,1
-E2,0,1
-F1,0,1
-F2,0,1
-G1,0,1
-H1,1,0
-H2,1,1
-J2,1,0
-K1,2,2
-K2,0,1
-M1,0,1
-N1,1,0
-N2,0,1
-O1,2,1
-Q1,0,1
-Q2,1,1
-R1,0,3
-R2,0,2
-S1,0,1
-S2,1,0
-T1,0,1
-T2,0,1
-U2,0,1
-V1,1,0
-V2,1,1
-W1,0,1
-W2,0,1
-Y2,0,1
+Marilyn Gray,0,1
+Tristan Maddox,0,2
+Dennis McGowan,1,1
+Wendy McGowan,1,0
+Steve Newsom,1,0
+Teresa Newsom,0,1
+Camilla Sampson,0,1
+Jacob Sampson,0,1
+Jim Schmidt,1,0
+Laurie Schmidt,0,1
+Melissa  Slaback,0,1
+Mike Slaback,0,1
+Angela Wolcott,0,1
+Gabe Wolcott,1,1
+Micah Sanger,0,1
+Mike Sanger,0,1
+Shane Wilson,2,0
+Cindy  Hughes,0,1
+Christie Kabrich,1,0
+Dave Halter,0,1
+Michael Mitvalsky,0,1
+Nick Hord,2,0
+Ron Billings,0,1
+Dave Cannella,0,1
+Larry Hanahan,1,1
+Jim Hitt,1,1
+Kirk DouPonce,1,1
+John Alessi,0,1
+Ron Thibedeau,0,1
+Sean Smith,1,1
+Julie Joy,1,2
+Karla Bloom,0,1
+Coleen Hellen,1,0
+Player45,0,2
+Player46,0,1
+Player47,0,1
 
 
-PlayerReport for player: P1
+PlayerReport for player: Ron Billings
 Partner,PartnerCount,OpponentCount
-A1,1,1
-A2,1,1
-B1,0,1
-B2,0,1
-C1,0,1
-D1,1,0
-D2,0,1
-F1,2,0
-G1,0,1
-H1,0,1
-I2,0,1
-J1,0,1
-J2,1,1
-K2,1,0
-L1,0,1
-L2,0,1
-M1,0,1
-M2,1,1
-N1,0,2
-N2,0,1
-P2,2,0
-Q2,0,1
-R2,1,1
-S2,2,1
-T1,0,1
-T2,1,1
-U1,0,1
-U2,0,2
-V1,0,2
-V2,0,1
-W1,0,1
-W2,0,1
-Y1,2,1
+Susan  Bernabie,0,1
+Marilyn Gray,0,1
+Tristan Maddox,0,1
+Wendy McGowan,0,1
+Steve Newsom,0,1
+Teresa Newsom,0,1
+Jacob Sampson,0,1
+Jim Schmidt,0,1
+Melissa  Slaback,2,0
+Angela Wolcott,1,0
+Gabe Wolcott,0,1
+Micah Sanger,0,1
+Mike Sanger,0,1
+Jim  Ross,1,1
+Leanne Ross,0,1
+Shane Wilson,0,1
+Cindy  Hughes,0,1
+Christie Kabrich,0,1
+Dave Halter,0,2
+Rodney Goodlette,3,0
+Michael Mitvalsky,1,1
+Nick Hord,0,1
+Dan Balantyne,0,1
+Dave Cannella,2,1
+Larry Hanahan,1,0
+Jerome Hand,0,1
+Kirk DouPonce,1,0
+Steve Hemschoot,0,1
+Ron Thibedeau,0,1
+Sean Smith,1,0
+Eric Winton,0,1
+Julie Joy,0,1
+Karla Bloom,1,1
+Coleen Hellen,1,1
+Player46,1,2
+Player47,0,1
 
 
-PlayerReport for player: P2
+PlayerReport for player: Dave Cannella
 Partner,PartnerCount,OpponentCount
-A1,0,1
-A2,0,1
-B1,1,0
-B2,1,1
-C1,0,1
-C2,0,1
-D1,1,1
-D2,0,1
-E1,0,1
-E2,0,1
-F1,0,1
-F2,0,1
-G1,1,0
-G2,1,1
-H1,0,1
-H2,0,1
-I1,0,2
-I2,0,1
-K1,0,1
-L2,1,0
-N2,0,2
-O1,0,1
-P1,2,0
-Q1,0,1
-R2,2,0
-S1,0,2
-S2,0,1
-T1,1,0
-T2,0,1
-U1,1,1
-U2,0,1
-V1,1,0
-V2,1,0
-W1,1,1
-W2,0,1
-Y1,1,0
-Y2,0,2
+Richard Bernabiae,1,1
+Susan  Bernabie,1,0
+Marilyn Gray,0,1
+Wayne Gray,0,1
+Lindsey Mannix,0,2
+Wendy McGowan,0,1
+Steve Newsom,0,1
+Teresa Newsom,1,1
+Jim Schmidt,0,1
+Laurie Schmidt,0,1
+Melissa  Slaback,1,1
+Mike Slaback,1,0
+Angela Wolcott,1,0
+Gabe Wolcott,0,1
+Micah Sanger,0,1
+Mike Sanger,0,1
+Jim  Ross,1,0
+Shane Wilson,0,1
+Cindy  Hughes,1,1
+Christie Kabrich,1,1
+Dave Halter,0,2
+Rodney Goodlette,0,1
+Michael Mitvalsky,0,1
+Nick Hord,0,2
+Dan Balantyne,0,1
+Ron Billings,2,1
+Kirk DouPonce,1,0
+John Alessi,0,1
+Steve Hemschoot,2,0
+Sean Smith,0,1
+Julie Joy,1,0
+Karla Bloom,0,1
+Coleen Hellen,1,0
+Player45,0,1
+Player46,0,1
+Player47,0,1
+Player48,0,1
 
 
-PlayerReport for player: Q1
+PlayerReport for player: Larry Hanahan
 Partner,PartnerCount,OpponentCount
-A1,1,1
-A2,1,1
-B1,0,1
-B2,2,1
-C1,0,1
-C2,1,1
-D1,0,1
-D2,0,1
-E1,1,0
-E2,0,1
-F1,0,1
-F2,0,1
-G1,0,1
-G2,1,0
-H1,0,1
-H2,0,1
-I2,0,1
-J1,1,1
-K1,0,1
-K2,0,1
-L1,0,1
-L2,0,1
-M1,1,0
-M2,0,1
-N1,0,1
-N2,0,1
-O2,0,1
-P2,0,1
-Q2,2,0
-R1,0,1
-S1,1,0
-S2,0,1
-T1,1,0
-U1,1,1
-V1,0,1
-W1,0,1
-W2,2,1
-Y1,0,1
+Richard Bernabiae,2,0
+Susan  Bernabie,0,1
+Marilyn Gray,0,1
+Wayne Gray,0,1
+Tristan Maddox,0,1
+Lindsey Mannix,0,1
+Dennis McGowan,0,1
+Wendy McGowan,0,1
+Steve Newsom,0,1
+Camilla Sampson,1,1
+Jacob Sampson,1,0
+Laurie Schmidt,0,1
+Melissa  Slaback,1,0
+Gabe Wolcott,1,0
+Micah Sanger,0,1
+Mike Sanger,0,1
+Jim  Ross,1,0
+Leanne Ross,0,1
+Shane Wilson,0,1
+Cindy  Hughes,0,1
+Christie Kabrich,0,1
+Dave Halter,2,1
+Rodney Goodlette,0,1
+Nick Hord,0,1
+Dan Balantyne,1,1
+Ron Billings,1,0
+Jim Hitt,3,0
+Kirk DouPonce,0,2
+John Alessi,0,1
+Steve Hemschoot,0,1
+Ron Thibedeau,1,0
+Sean Smith,0,1
+Eric Winton,0,1
+Julie Joy,0,1
+Karla Bloom,0,1
+Coleen Hellen,0,1
+Player45,0,1
+Player46,1,1
+Player47,0,1
 
 
-PlayerReport for player: Q2
+PlayerReport for player: Jim Hitt
 Partner,PartnerCount,OpponentCount
-A1,0,1
-A2,0,1
-B1,0,1
-C1,1,1
-C2,0,1
-D2,0,1
-F1,1,1
-F2,0,1
-G1,0,1
-G2,0,1
-H1,0,2
-H2,1,0
-I1,1,2
-J1,1,0
-J2,1,1
-K2,1,0
-L1,0,2
-L2,1,1
-M2,0,1
-N1,0,2
-N2,0,1
-O1,1,0
-O2,1,1
-P1,0,1
-Q1,2,0
-R1,1,0
-R2,0,1
-S2,0,1
-T2,0,1
-U1,0,1
-V1,0,1
-V2,0,2
-W1,2,0
-W2,1,0
-Y1,0,1
+Susan  Bernabie,1,1
+Marilyn Gray,0,1
+Wayne Gray,0,1
+Tristan Maddox,0,1
+Lindsey Mannix,0,1
+Dennis McGowan,0,2
+Wendy McGowan,3,0
+Steve Newsom,0,1
+Teresa Newsom,0,1
+Camilla Sampson,0,2
+Jacob Sampson,1,0
+Laurie Schmidt,0,1
+Melissa  Slaback,1,1
+Mike Slaback,0,1
+Micah Sanger,0,1
+Mike Sanger,1,1
+Cindy  Hughes,0,1
+Christie Kabrich,0,1
+Dave Halter,0,1
+Rodney Goodlette,1,1
+Michael Mitvalsky,0,1
+Nick Hord,0,1
+Dan Balantyne,1,1
+Larry Hanahan,3,0
+Jerome Hand,0,1
+Kirk DouPonce,0,1
+John Alessi,0,1
+Steve Hemschoot,0,1
+Ron Thibedeau,0,1
+Eric Winton,1,1
+Julie Joy,1,0
+Karla Bloom,0,1
+Coleen Hellen,0,1
+Player45,1,0
+Player46,1,0
+Player47,0,1
 
 
-PlayerReport for player: R1
+PlayerReport for player: Jerome Hand
 Partner,PartnerCount,OpponentCount
-A1,0,1
-A2,0,1
-B1,0,1
-B2,0,1
-C1,0,1
-C2,1,0
-D2,0,1
-E1,0,1
-F1,0,1
-F2,0,1
-G1,1,0
-G2,0,1
-H1,1,0
-H2,0,1
-I1,1,1
-J1,0,1
-J2,1,1
-K1,1,1
-K2,1,0
-L2,0,1
-M1,0,1
-N1,0,1
-N2,1,1
-O1,1,2
-O2,0,3
-Q1,0,1
-Q2,1,0
-R2,2,0
-S1,1,1
-U1,1,1
-U2,1,0
-V1,0,2
-V2,1,1
-W1,0,1
-Y2,0,1
+Richard Bernabiae,2,0
+Susan  Bernabie,0,1
+Wayne Gray,0,1
+Lindsey Mannix,1,1
+Dennis McGowan,1,1
+Camilla Sampson,0,1
+Jacob Sampson,0,1
+Jim Schmidt,1,1
+Laurie Schmidt,1,0
+Melissa  Slaback,0,1
+Mike Slaback,0,2
+Angela Wolcott,0,1
+Micah Sanger,0,2
+Mike Sanger,0,2
+Jim  Ross,0,1
+Shane Wilson,0,1
+Cindy  Hughes,0,1
+Rodney Goodlette,0,1
+Nick Hord,1,0
+Ron Billings,0,1
+Jim Hitt,0,1
+Kirk DouPonce,2,1
+Steve Hemschoot,0,1
+Ron Thibedeau,2,2
+Sean Smith,3,0
+Julie Joy,0,1
+Karla Bloom,1,0
+Coleen Hellen,0,1
+Player45,0,2
+Player46,1,1
+Player47,0,1
+Player48,0,1
 
 
-PlayerReport for player: R2
+PlayerReport for player: Kirk DouPonce
 Partner,PartnerCount,OpponentCount
-A2,0,1
-B1,0,1
-B2,0,1
-C2,0,1
-D1,1,1
-E2,0,1
-F2,2,2
-H1,0,1
-H2,0,1
-I1,0,1
-I2,1,0
-J2,1,1
-K1,0,2
-K2,0,1
-N1,1,0
-O1,2,3
-O2,0,2
-P1,1,1
-P2,2,0
-Q2,0,1
-R1,2,0
-S1,0,1
-S2,0,1
-T2,1,0
-U1,0,1
-U2,0,2
-V1,1,0
-V2,0,1
-W2,0,1
-Y1,1,1
-Y2,0,2
+Susan  Bernabie,1,1
+Wayne Gray,0,1
+Tristan Maddox,0,1
+Lindsey Mannix,0,1
+Dennis McGowan,1,0
+Wendy McGowan,0,1
+Teresa Newsom,1,0
+Camilla Sampson,3,1
+Laurie Schmidt,0,1
+Melissa  Slaback,0,1
+Mike Slaback,1,1
+Angela Wolcott,0,1
+Gabe Wolcott,0,1
+Micah Sanger,0,2
+Mike Sanger,0,1
+Leanne Ross,0,1
+Cindy  Hughes,1,0
+Christie Kabrich,0,1
+Dave Halter,0,1
+Michael Mitvalsky,0,1
+Nick Hord,0,1
+Dan Balantyne,1,1
+Ron Billings,1,0
+Dave Cannella,1,0
+Larry Hanahan,0,2
+Jim Hitt,0,1
+Jerome Hand,2,1
+Steve Hemschoot,1,1
+Ron Thibedeau,0,1
+Sean Smith,0,1
+Eric Winton,0,1
+Julie Joy,0,1
+Player45,1,0
+Player46,0,1
+Player47,0,2
+Player48,1,0
 
 
-PlayerReport for player: S1
+PlayerReport for player: John Alessi
 Partner,PartnerCount,OpponentCount
-A1,0,1
-A2,0,1
-B2,0,1
-C1,0,1
-C2,1,0
-D1,0,1
-D2,1,1
-E2,0,1
-F1,0,1
-G1,0,1
-G2,1,1
-H1,0,1
-I2,0,1
-J1,0,1
-J2,0,1
-L1,1,1
-L2,0,1
-M2,1,0
-N1,1,1
-N2,3,1
-O2,0,1
-P2,0,2
-Q1,1,0
-R1,1,1
-R2,0,1
-S2,2,1
-T1,0,1
-T2,0,1
-U1,0,1
-U2,0,1
-V1,1,1
-W1,1,0
-W2,1,1
-Y1,0,1
-Y2,0,1
+Richard Bernabiae,2,1
+Susan  Bernabie,0,1
+Marilyn Gray,0,1
+Wayne Gray,0,1
+Tristan Maddox,1,2
+Wendy McGowan,0,1
+Jacob Sampson,0,1
+Jim Schmidt,0,1
+Laurie Schmidt,1,1
+Melissa  Slaback,0,1
+Mike Slaback,1,0
+Angela Wolcott,0,1
+Gabe Wolcott,0,2
+Micah Sanger,1,1
+Mike Sanger,2,0
+Jim  Ross,0,1
+Leanne Ross,1,1
+Shane Wilson,0,1
+Christie Kabrich,1,1
+Nick Hord,1,1
+Dan Balantyne,0,1
+Dave Cannella,0,1
+Larry Hanahan,0,1
+Jim Hitt,0,1
+Steve Hemschoot,2,1
+Ron Thibedeau,1,0
+Eric Winton,0,1
+Julie Joy,0,1
+Karla Bloom,1,1
+Coleen Hellen,0,1
+Player45,0,1
+Player46,1,0
+Player47,0,1
+Player48,0,1
 
 
-PlayerReport for player: S2
+PlayerReport for player: Steve Hemschoot
 Partner,PartnerCount,OpponentCount
-A1,0,1
-A2,0,1
-B1,0,1
-B2,0,1
-C1,1,0
-C2,0,1
-D1,1,0
-D2,1,0
-E1,0,1
-E2,0,1
-F2,1,0
-G2,0,1
-H1,0,1
-H2,0,1
-I1,1,1
-I2,0,1
-J1,3,1
-J2,0,1
-K1,0,1
-L1,0,2
-L2,0,2
-N1,1,0
-N2,0,1
-O2,1,0
-P1,2,1
-P2,0,1
-Q1,0,1
-Q2,0,1
-R2,0,1
-S1,2,1
-T1,0,1
-T2,0,1
-U2,2,0
-V1,0,1
-V2,0,1
-W1,0,1
-W2,0,1
+Richard Bernabiae,0,1
+Susan  Bernabie,0,1
+Tristan Maddox,0,1
+Lindsey Mannix,1,1
+Dennis McGowan,0,1
+Wendy McGowan,1,0
+Steve Newsom,1,1
+Teresa Newsom,1,0
+Camilla Sampson,0,1
+Jacob Sampson,1,1
+Laurie Schmidt,0,1
+Melissa  Slaback,0,1
+Angela Wolcott,1,1
+Gabe Wolcott,0,2
+Mike Sanger,0,1
+Jim  Ross,0,2
+Leanne Ross,0,1
+Shane Wilson,0,1
+Cindy  Hughes,1,1
+Dave Halter,0,1
+Rodney Goodlette,0,1
+Michael Mitvalsky,1,1
+Ron Billings,0,1
+Dave Cannella,2,0
+Larry Hanahan,0,1
+Jim Hitt,0,1
+Jerome Hand,0,1
+Kirk DouPonce,1,1
+John Alessi,2,1
+Ron Thibedeau,0,1
+Sean Smith,0,1
+Karla Bloom,1,0
+Coleen Hellen,0,1
+Player45,0,1
+Player47,1,0
+Player48,1,0
 
 
-PlayerReport for player: T1
+PlayerReport for player: Ron Thibedeau
 Partner,PartnerCount,OpponentCount
-A1,1,1
-A2,1,0
-B2,0,1
-C1,0,1
-C2,0,1
-D1,0,1
-D2,0,1
-E1,0,2
-E2,0,1
-F2,1,1
-G1,1,1
-H1,0,1
-I1,0,1
-I2,1,1
-J1,0,1
-J2,0,1
-K1,1,0
-K2,1,1
-L1,0,1
-L2,0,1
-M1,0,1
-N1,1,1
-O1,0,1
-O2,0,1
-P1,0,1
-P2,1,0
-Q1,1,0
-S1,0,1
-S2,0,1
-T2,3,0
-U1,0,1
-V1,0,1
-V2,1,1
-W2,1,1
-Y1,1,1
-Y2,0,1
+Richard Bernabiae,0,1
+Tristan Maddox,0,1
+Wendy McGowan,1,2
+Steve Newsom,0,1
+Teresa Newsom,0,1
+Camilla Sampson,1,0
+Laurie Schmidt,0,1
+Melissa  Slaback,1,0
+Mike Slaback,0,1
+Angela Wolcott,1,1
+Gabe Wolcott,0,1
+Micah Sanger,0,1
+Jim  Ross,0,1
+Leanne Ross,0,1
+Cindy  Hughes,1,1
+Christie Kabrich,0,1
+Dave Halter,0,1
+Rodney Goodlette,0,1
+Michael Mitvalsky,0,1
+Nick Hord,2,0
+Dan Balantyne,0,1
+Ron Billings,0,1
+Larry Hanahan,1,0
+Jim Hitt,0,1
+Jerome Hand,2,2
+Kirk DouPonce,0,1
+John Alessi,1,0
+Steve Hemschoot,0,1
+Sean Smith,2,1
+Eric Winton,0,2
+Julie Joy,1,0
+Player45,1,1
+Player46,1,1
+Player47,0,1
+Player48,0,1
 
 
-PlayerReport for player: T2
+PlayerReport for player: Sean Smith
 Partner,PartnerCount,OpponentCount
-A2,0,1
-B1,1,0
-D1,1,1
-F1,0,1
-F2,0,1
-G2,1,0
-H1,0,1
-H2,0,1
-I1,0,1
-I2,0,1
-J2,0,1
-K1,0,1
-K2,1,1
-L1,2,1
-L2,0,1
-M1,1,0
-M2,0,1
-N1,1,1
-N2,0,1
-O1,0,2
-O2,0,1
-P1,1,1
-P2,0,1
-Q2,0,1
-R2,1,0
-S1,0,1
-S2,0,1
-T1,3,0
-U1,0,1
-U2,0,1
-V1,0,1
-V2,2,2
-W1,0,1
-Y1,1,1
-Y2,0,1
+Richard Bernabiae,1,0
+Susan  Bernabie,0,1
+Wayne Gray,0,1
+Tristan Maddox,1,0
+Dennis McGowan,1,1
+Wendy McGowan,0,1
+Steve Newsom,1,0
+Teresa Newsom,0,1
+Camilla Sampson,0,1
+Jacob Sampson,0,1
+Melissa  Slaback,0,1
+Mike Slaback,1,1
+Gabe Wolcott,0,1
+Micah Sanger,0,1
+Mike Sanger,0,2
+Jim  Ross,0,2
+Leanne Ross,1,0
+Shane Wilson,1,1
+Cindy  Hughes,0,2
+Rodney Goodlette,0,1
+Michael Mitvalsky,0,1
+Nick Hord,1,0
+Dan Balantyne,1,1
+Ron Billings,1,0
+Dave Cannella,0,1
+Larry Hanahan,0,1
+Jerome Hand,3,0
+Kirk DouPonce,0,1
+Steve Hemschoot,0,1
+Ron Thibedeau,2,1
+Julie Joy,0,2
+Player45,0,1
+Player46,0,2
+Player48,1,1
 
 
-PlayerReport for player: U1
+PlayerReport for player: Eric Winton
 Partner,PartnerCount,OpponentCount
-A1,0,1
-A2,0,1
-B1,1,0
-B2,0,1
-C1,0,1
-C2,0,1
-D1,1,1
-D2,0,2
-E1,0,1
-E2,1,0
-F1,1,1
-F2,0,2
-G1,1,0
-G2,0,1
-H1,1,1
-H2,0,1
-J2,1,0
-K1,1,1
-M2,2,0
-N1,0,1
-N2,0,1
-O1,0,1
-P1,0,1
-P2,1,1
-Q1,1,1
-Q2,0,1
-R1,1,1
-R2,0,1
-S1,0,1
-T1,0,1
-T2,0,1
-U2,2,0
-V1,0,1
-W1,0,1
-Y1,0,1
-Y2,1,1
+Richard Bernabiae,0,1
+Susan  Bernabie,0,1
+Wayne Gray,1,1
+Tristan Maddox,0,2
+Lindsey Mannix,0,1
+Dennis McGowan,1,0
+Wendy McGowan,0,1
+Steve Newsom,1,1
+Teresa Newsom,0,1
+Camilla Sampson,1,1
+Jacob Sampson,1,0
+Jim Schmidt,0,1
+Laurie Schmidt,2,0
+Mike Slaback,1,1
+Gabe Wolcott,1,0
+Micah Sanger,0,1
+Mike Sanger,0,1
+Jim  Ross,1,0
+Shane Wilson,1,1
+Cindy  Hughes,0,1
+Christie Kabrich,0,1
+Dave Halter,1,1
+Rodney Goodlette,0,1
+Michael Mitvalsky,0,1
+Nick Hord,0,1
+Ron Billings,0,1
+Larry Hanahan,0,1
+Jim Hitt,1,1
+Kirk DouPonce,0,1
+John Alessi,0,1
+Ron Thibedeau,0,2
+Julie Joy,2,0
+Karla Bloom,0,1
+Coleen Hellen,1,0
+Player45,0,2
+Player46,0,1
 
 
-PlayerReport for player: U2
+PlayerReport for player: Julie Joy
 Partner,PartnerCount,OpponentCount
-A1,1,1
-C1,0,1
-C2,1,0
-D1,0,1
-E1,1,0
-E2,1,1
-F1,0,1
-F2,1,1
-G1,1,1
-G2,0,1
-H1,1,1
-H2,0,1
-I1,0,1
-I2,0,1
-J1,0,1
-K1,0,1
-K2,0,1
-L1,0,1
-L2,1,0
-M2,0,1
-N1,0,1
-N2,0,2
-O1,1,2
-O2,0,1
-P1,0,2
-P2,0,1
-R1,1,0
-R2,0,2
-S1,0,1
-S2,2,0
-T2,0,1
-U1,2,0
-V1,0,1
-V2,0,1
-W1,1,0
-W2,1,0
+Susan  Bernabie,0,1
+Wayne Gray,0,1
+Tristan Maddox,0,1
+Lindsey Mannix,0,1
+Wendy McGowan,0,1
+Teresa Newsom,0,1
+Camilla Sampson,0,1
+Jacob Sampson,0,1
+Jim Schmidt,0,1
+Laurie Schmidt,1,0
+Melissa  Slaback,1,0
+Mike Slaback,0,1
+Gabe Wolcott,0,1
+Micah Sanger,1,1
+Mike Sanger,1,1
+Jim  Ross,0,1
+Leanne Ross,1,0
+Shane Wilson,0,1
+Cindy  Hughes,0,1
+Christie Kabrich,2,1
+Dave Halter,1,0
+Rodney Goodlette,0,1
+Michael Mitvalsky,1,1
+Nick Hord,0,1
+Dan Balantyne,1,2
+Ron Billings,0,1
+Dave Cannella,1,0
+Larry Hanahan,0,1
+Jim Hitt,1,0
+Jerome Hand,0,1
+Kirk DouPonce,0,1
+John Alessi,0,1
+Ron Thibedeau,1,0
+Sean Smith,0,2
+Eric Winton,2,0
+Karla Bloom,0,1
+Player45,0,1
+Player46,0,1
+Player48,1,0
 
 
-PlayerReport for player: V1
+PlayerReport for player: Karla Bloom
 Partner,PartnerCount,OpponentCount
-A2,0,1
-B1,0,1
-B2,1,0
-C2,1,0
-D2,1,1
-E1,1,0
-F1,0,1
-F2,0,2
-G1,0,1
-G2,1,0
-H1,0,1
-H2,0,1
-I1,1,0
-I2,1,1
-J1,0,1
-J2,0,1
-K1,0,1
-L1,0,1
-L2,1,0
-M1,0,1
-M2,2,0
-N2,0,1
-O2,1,0
-P1,0,2
-P2,1,0
-Q1,0,1
-Q2,0,1
-R1,0,2
-R2,1,0
-S1,1,1
-S2,0,1
-T1,0,1
-T2,0,1
-U1,0,1
-U2,0,1
-V2,2,1
-W2,0,1
-Y1,0,1
-Y2,0,1
+Richard Bernabiae,0,1
+Susan  Bernabie,0,1
+Marilyn Gray,0,1
+Wayne Gray,0,1
+Dennis McGowan,0,1
+Wendy McGowan,0,1
+Steve Newsom,0,1
+Teresa Newsom,0,1
+Jacob Sampson,0,1
+Jim Schmidt,1,2
+Laurie Schmidt,0,1
+Melissa  Slaback,1,0
+Angela Wolcott,0,1
+Gabe Wolcott,0,1
+Mike Sanger,0,1
+Jim  Ross,1,1
+Leanne Ross,1,1
+Shane Wilson,1,1
+Christie Kabrich,0,1
+Dave Halter,2,1
+Rodney Goodlette,0,1
+Michael Mitvalsky,1,1
+Dan Balantyne,0,1
+Ron Billings,1,1
+Dave Cannella,0,1
+Larry Hanahan,0,1
+Jim Hitt,0,1
+Jerome Hand,1,0
+John Alessi,1,1
+Steve Hemschoot,1,0
+Eric Winton,0,1
+Julie Joy,0,1
+Coleen Hellen,2,0
+Player45,0,1
+Player46,1,0
+Player47,1,0
+Player48,0,1
 
 
-PlayerReport for player: V2
+PlayerReport for player: Coleen Hellen
 Partner,PartnerCount,OpponentCount
-B2,1,1
-C1,1,0
-C2,0,1
-E1,0,1
-E2,0,1
-F1,0,1
-F2,1,0
-G1,1,1
-H1,0,2
-H2,0,1
-I1,0,1
-J1,0,1
-J2,0,1
-K1,1,0
-K2,0,1
-L1,0,1
-L2,0,1
-M1,1,0
-N1,0,1
-N2,2,1
-O2,1,1
-P1,0,1
-P2,1,0
-Q2,0,2
-R1,1,1
-R2,0,1
-S2,0,1
-T1,1,1
-T2,2,2
-U2,0,1
-V1,2,1
-W1,0,1
-Y1,0,2
+Richard Bernabiae,1,1
+Susan  Bernabie,0,1
+Marilyn Gray,1,2
+Tristan Maddox,1,1
+Lindsey Mannix,1,1
+Dennis McGowan,0,1
+Wendy McGowan,0,1
+Steve Newsom,0,1
+Teresa Newsom,1,1
+Camilla Sampson,1,1
+Jacob Sampson,0,1
+Laurie Schmidt,0,1
+Melissa  Slaback,0,1
+Mike Slaback,0,1
+Gabe Wolcott,0,1
+Micah Sanger,1,1
+Mike Sanger,0,1
+Jim  Ross,0,1
+Leanne Ross,0,1
+Shane Wilson,1,0
+Cindy  Hughes,0,1
+Christie Kabrich,1,0
+Dave Halter,0,1
+Rodney Goodlette,0,1
+Michael Mitvalsky,0,1
+Nick Hord,1,0
+Dan Balantyne,1,0
+Ron Billings,1,1
+Dave Cannella,1,0
+Larry Hanahan,0,1
+Jim Hitt,0,1
+Jerome Hand,0,1
+John Alessi,0,1
+Steve Hemschoot,0,1
+Eric Winton,1,0
+Karla Bloom,2,0
+Player45,0,1
+Player47,0,1
 
 
-PlayerReport for player: W1
+PlayerReport for player: Player45
 Partner,PartnerCount,OpponentCount
-A1,1,1
-A2,0,1
-B1,0,1
-B2,0,1
-C1,0,2
-C2,1,0
-D1,2,1
-D2,0,1
-E1,0,1
-E2,0,1
-F1,0,1
-H1,0,1
-H2,1,0
-I1,0,1
-J1,1,0
-J2,1,1
-L1,0,1
-L2,0,1
-M1,0,2
-M2,0,1
-N1,2,0
-O1,0,1
-O2,0,1
-P1,0,1
-P2,1,1
-Q1,0,1
-Q2,2,0
-R1,0,1
-S1,1,0
-S2,0,1
-T2,0,1
-U1,0,1
-U2,1,0
-V2,0,1
-W2,2,1
-Y1,0,1
-Y2,0,1
+Susan  Bernabie,1,0
+Marilyn Gray,0,1
+Wayne Gray,0,1
+Tristan Maddox,0,1
+Lindsey Mannix,1,1
+Teresa Newsom,0,1
+Camilla Sampson,0,1
+Jacob Sampson,0,1
+Jim Schmidt,2,0
+Laurie Schmidt,0,1
+Mike Slaback,1,0
+Angela Wolcott,1,1
+Gabe Wolcott,2,0
+Micah Sanger,0,1
+Shane Wilson,1,1
+Christie Kabrich,0,1
+Dave Halter,0,2
+Michael Mitvalsky,1,0
+Nick Hord,0,1
+Dan Balantyne,0,2
+Dave Cannella,0,1
+Larry Hanahan,0,1
+Jim Hitt,1,0
+Jerome Hand,0,2
+Kirk DouPonce,1,0
+John Alessi,0,1
+Steve Hemschoot,0,1
+Ron Thibedeau,1,1
+Sean Smith,0,1
+Eric Winton,0,2
+Julie Joy,0,1
+Karla Bloom,0,1
+Coleen Hellen,0,1
+Player46,2,0
+Player47,1,0
+Player48,0,2
 
 
-PlayerReport for player: W2
+PlayerReport for player: Player46
 Partner,PartnerCount,OpponentCount
-A1,1,1
-B1,0,1
-C2,1,2
-D1,0,1
-D2,1,0
-E1,0,1
-F1,0,1
-F2,0,1
-G1,0,2
-G2,0,1
-H1,0,1
-H2,1,0
-I2,0,1
-J1,0,1
-J2,1,1
-K1,1,0
-K2,0,1
-L2,0,1
-M1,0,2
-M2,0,1
-N1,1,1
-O1,0,1
-O2,0,1
-P1,0,1
-P2,0,1
-Q1,2,1
-Q2,1,0
-R2,0,1
-S1,1,1
-S2,0,1
-T1,1,1
-U2,1,0
-V1,0,1
-W1,2,1
-Y2,1,0
+Richard Bernabiae,1,1
+Susan  Bernabie,0,1
+Marilyn Gray,0,1
+Wayne Gray,1,1
+Tristan Maddox,0,1
+Lindsey Mannix,0,1
+Wendy McGowan,1,0
+Steve Newsom,0,1
+Camilla Sampson,0,1
+Jim Schmidt,1,0
+Laurie Schmidt,1,0
+Melissa  Slaback,0,1
+Mike Slaback,1,0
+Angela Wolcott,1,0
+Gabe Wolcott,0,1
+Micah Sanger,0,1
+Mike Sanger,0,1
+Leanne Ross,0,1
+Shane Wilson,0,1
+Cindy  Hughes,0,1
+Christie Kabrich,0,1
+Dave Halter,0,1
+Rodney Goodlette,0,1
+Nick Hord,0,2
+Dan Balantyne,0,1
+Ron Billings,1,2
+Dave Cannella,0,1
+Larry Hanahan,1,1
+Jim Hitt,1,0
+Jerome Hand,1,1
+Kirk DouPonce,0,1
+John Alessi,1,0
+Ron Thibedeau,1,1
+Sean Smith,0,2
+Eric Winton,0,1
+Julie Joy,0,1
+Karla Bloom,1,0
+Player45,2,0
 
 
-PlayerReport for player: Y1
+PlayerReport for player: Player47
 Partner,PartnerCount,OpponentCount
-A1,1,0
-A2,1,1
-B1,1,1
-B2,1,0
-C1,0,1
-D1,0,1
-D2,0,2
-E1,1,0
-E2,1,0
-F1,0,1
-F2,1,0
-G1,0,1
-H1,0,1
-H2,0,1
-I1,0,1
-I2,0,1
-J2,0,1
-K1,0,1
-K2,0,1
-L1,0,1
-L2,1,0
-M1,0,1
-N1,0,1
-O1,0,1
-P1,2,1
-P2,1,0
-Q1,0,1
-Q2,0,1
-R2,1,1
-S1,0,1
-T1,1,1
-T2,1,1
-U1,0,1
-V1,0,1
-V2,0,2
-W1,0,1
-Y2,2,1
+Richard Bernabiae,0,1
+Susan  Bernabie,0,1
+Marilyn Gray,1,2
+Wayne Gray,0,1
+Tristan Maddox,0,1
+Lindsey Mannix,1,0
+Dennis McGowan,0,1
+Wendy McGowan,1,1
+Steve Newsom,0,1
+Teresa Newsom,0,1
+Camilla Sampson,1,1
+Jacob Sampson,0,1
+Jim Schmidt,0,1
+Melissa  Slaback,0,1
+Mike Slaback,0,1
+Gabe Wolcott,1,0
+Micah Sanger,1,0
+Mike Sanger,0,1
+Jim  Ross,1,0
+Shane Wilson,0,1
+Cindy  Hughes,1,1
+Christie Kabrich,1,0
+Michael Mitvalsky,1,0
+Nick Hord,1,1
+Dan Balantyne,0,1
+Ron Billings,0,1
+Dave Cannella,0,1
+Larry Hanahan,0,1
+Jim Hitt,0,1
+Jerome Hand,0,1
+Kirk DouPonce,0,2
+John Alessi,0,1
+Steve Hemschoot,1,0
+Ron Thibedeau,0,1
+Karla Bloom,1,0
+Coleen Hellen,0,1
+Player45,1,0
+Player48,2,2
 
 
-PlayerReport for player: Y2
+PlayerReport for player: Player48
 Partner,PartnerCount,OpponentCount
-A1,1,0
-A2,1,0
-C2,0,1
-D1,1,1
-D2,0,1
-E1,0,1
-F1,1,0
-F2,0,2
-G1,1,1
-G2,0,1
-H1,0,1
-H2,0,1
-I1,1,1
-I2,0,1
-J1,1,0
-J2,0,1
-K1,1,2
-K2,0,1
-L1,0,1
-L2,2,0
-M1,0,1
-N2,1,0
-O1,1,1
-O2,0,1
-P2,0,2
-R1,0,1
-R2,0,2
-S1,0,1
-T1,0,1
-T2,0,1
-U1,1,1
-V1,0,1
-W1,0,1
-W2,1,0
-Y1,2,1
+Richard Bernabiae,0,1
+Susan  Bernabie,0,1
+Marilyn Gray,0,1
+Wayne Gray,1,1
+Lindsey Mannix,0,1
+Wendy McGowan,0,1
+Steve Newsom,0,1
+Teresa Newsom,0,1
+Camilla Sampson,0,1
+Jacob Sampson,1,1
+Jim Schmidt,0,1
+Laurie Schmidt,0,1
+Melissa  Slaback,1,0
+Mike Slaback,0,1
+Angela Wolcott,0,1
+Gabe Wolcott,1,0
+Mike Sanger,0,1
+Jim  Ross,0,1
+Leanne Ross,1,1
+Shane Wilson,1,0
+Cindy  Hughes,2,0
+Christie Kabrich,0,1
+Dave Halter,1,1
+Rodney Goodlette,0,1
+Michael Mitvalsky,1,2
+Dave Cannella,0,1
+Jerome Hand,0,1
+Kirk DouPonce,1,0
+John Alessi,0,1
+Steve Hemschoot,1,0
+Ron Thibedeau,0,1
+Sean Smith,1,1
+Julie Joy,1,0
+Karla Bloom,0,1
+Player45,0,2
+Player47,2,2
 

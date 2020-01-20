@@ -101,6 +101,11 @@ public:
         return mRand.ranf();
     };
 
+    uint64_t get(void)
+    {
+        return mRand.get();
+    }
+
 private:
     Rand mRand; // random number generator.
     uint64_t* mData; // random number bool.
@@ -117,6 +122,79 @@ private:
 const char *names[MAX_PLAYERS] =
 {
 #if 1
+"Richard Bernabiae",
+"Susan  Bernabie",
+
+"Marilyn Gray",
+"Wayne Gray",
+
+"Tristan Maddox",
+"Lindsey Mannix",
+
+"Dennis McGowan",
+"Wendy McGowan",
+
+"Steve Newsom",
+"Teresa Newsom",
+
+"Camilla Sampson",
+"Jacob Sampson",
+
+"Jim Schmidt",
+"Laurie Schmidt",
+
+"Melissa  Slaback",
+"Mike Slaback",
+
+"Angela Wolcott",
+"Gabe Wolcott",
+
+"Micah Sanger",
+"Mike Sanger",
+
+"Jim  Ross",
+"Leanne Ross",
+
+"Shane Wilson",
+"Cindy  Hughes",
+
+"Christie Kabrich",
+"Dave Halter",
+
+"Rodney Goodlette",
+"Michael Mitvalsky",
+
+"Nick Hord",
+"Dan Balantyne",
+
+"Ron Billings",
+"Dave Cannella",
+
+"Larry Hanahan",
+"Jim Hitt",
+
+"Jerome Hand",
+"Kirk DouPonce",
+
+"John Alessi",
+"Steve Hemschoot",
+
+"Ron Thibedeau",
+"Sean Smith",
+
+"Eric Winton",
+"Julie Joy",
+
+"Karla Bloom",
+"Coleen Hellen",
+
+"Player45",
+"Player46",
+
+"Player47",
+"Player48"
+
+#else
 "A1",
 "A2",
 "B1",
@@ -165,55 +243,6 @@ const char *names[MAX_PLAYERS] =
 "W2",
 "Y1",
 "Y2"
-#else
-"Allen",
-"Ally",
-"Bob",
-"Betty",
-"Carl",
-"Cristy",
-"Dave",
-"Donna",
-"Eric",
-"Elly",
-"Fred",
-"Faith",
-"Greg",
-"Gail",
-"Henry",
-"Helen",
-"Isaac",
-"Isabelle",
-"Joe",
-"Jane",
-"Ken",
-"Kathy",
-"Larry",
-"Leslie",
-"Mike",
-"Missy",
-"Norman",
-"Nancy",
-"Oscar",
-"Olivia",
-"Paul",
-"Patty",
-"Quincy",
-"Quala",
-"Ron",
-"Rebecca",
-"Sam",
-"Sally",
-"Tom",
-"Terry",
-"Umar",
-"Ursula",
-"Van",
-"Valorie",
-"William",
-"Wendy",
-"Yahir",
-"Yolanda"
 #endif
 };
 
@@ -293,7 +322,24 @@ public:
         mPlayCount[opponent]++;
     }
 
-    void playerReport(FILE *fph)
+    uint64_t getError(void) const
+    {
+        uint64_t ret = 0;
+        for (uint32_t i = 0; i < MAX_PLAYERS; i++)
+        {
+            if (i != mPlayerId)
+            {
+                if (mPartnerCount[i] || mPlayCount[i])
+                {
+//                    ret+=mPlayCount[i];
+                    ret+=mPartnerCount[i];
+                }
+            }
+        }
+        return ret;
+    }
+
+    void playerReport(FILE *fph) const
     {
         fprintf(fph,"\n");
         fprintf(fph,"PlayerReport for player: %s\n", names[mPlayerId]);
@@ -309,6 +355,24 @@ public:
             }
         }
         fprintf(fph,"\n");
+    }
+
+    void playerReport(void) const
+    {
+        printf("\n");
+        printf("PlayerReport for player: %s\n", names[mPlayerId]);
+        printf("Partner,PartnerCount,OpponentCount\n");
+        for (uint32_t i = 0; i < MAX_PLAYERS; i++)
+        {
+            if (i != mPlayerId)
+            {
+                if (mPartnerCount[i] || mPlayCount[i])
+                {
+                    printf("%-10s : %4d : %4d\n", names[i], mPartnerCount[i], mPlayCount[i]);
+                }
+            }
+        }
+        printf("\n");
     }
 
     Game        mLastPlayed{Game::NONE};
@@ -327,9 +391,19 @@ public:
         const char *player2 = names[mPlayer2];
         const char *player3 = names[mPlayer3];
         const char *player4 = names[mPlayer4];
-        fprintf(fph,"\"%s:%s vs %s:%s\"", player1, player2,player3,player4);
+        fprintf(fph,"\"'%s and %s' vs '%s and %s'\"", player1, player2,player3,player4);
         fflush(fph);
     }
+
+    void print(void)
+    {
+        const char *player1 = names[mPlayer1];
+        const char *player2 = names[mPlayer2];
+        const char *player3 = names[mPlayer3];
+        const char *player4 = names[mPlayer4];
+        printf("'%s and %s' vs '%s and %s'\n", player1, player2, player3, player4);
+    }
+
     uint32_t    mPlayer1{0};
     uint32_t    mPlayer2{0};
     uint32_t    mPlayer3{0};
@@ -339,22 +413,62 @@ public:
 class CornholeLeague
 {
 public:
-
-    void createSchedule(void)
+    CornholeLeague(uint64_t seed) : mSeed(seed)
     {
-        mRandPool.init(MAX_PLAYERS,MAX_PLAYERS);
-        for (uint32_t i=0; i<MAX_PLAYERS; i++)
-        {
-            mPlayers[i].init(i);
-        }
+    }
+
+    void saveSchedule(void)
+    {
         FILE *fph = fopen("CornholeLeague.csv", "wb");
-        if ( fph == nullptr )
+        if (fph == nullptr)
         {
             printf("Failed to open output file.\n");
             exit(1);
         }
+        uint64_t index = 0;
+        for (uint32_t i = 0; i < MAX_ROUNDS; i++)
+        {
+            fprintf(fph, "\n");
+            fprintf(fph, "Week%d\n", i + 1);
+            fprintf(fph, "\n");
+            for (uint32_t j = 0; j < 4; j++)
+            {
+                fprintf(fph, "Board1:Game%d,Board2:Game%d,Board3:Game%d,Board4:Game%d,Board5:Game%d,Board6:Game%d\n",
+                    j+1,j+1,j+1,
+                    j+1,j+1,j+1);
+                for (uint32_t i = 0; i < MAX_GAMES; i++)
+                {
+                    mAllGames[index].print(fph);
+                    index++;
+                    if ((i + 1) < MAX_GAMES)
+                    {
+                        fprintf(fph, ",");
+                    }
+                }
+                fprintf(fph, "\n");
+                fprintf(fph, "\n");
+                fflush(fph);
+            }
+        }
+#if 1
+        for (uint32_t i = 0; i < MAX_PLAYERS; i++)
+        {
+            mPlayers[i].playerReport(fph);
+        }
+#endif
+        fclose(fph);
 
+    }
 
+    void createSchedule(void)
+    {
+        mAllGames.clear();
+        mRandPool.init(MAX_PLAYERS,mSeed);
+
+        for (uint32_t i=0; i<MAX_PLAYERS; i++)
+        {
+            mPlayers[i].init(i);
+        }
         for (uint32_t i=0; i<MAX_ROUNDS; i++)
         {
             // Reset the game state...
@@ -362,60 +476,38 @@ public:
             {
                 p.resetGame();
             }
-            fprintf(fph,"\n");
-            fprintf(fph,"Week%d\n", i+1);
-            fprintf(fph,"\n");
-            fprintf(fph, "Board1,Board2,Board3,Board4,Board5,Board6\n");
-
             for (uint32_t j=0; j<4; j++)
             {
                 // First, find the pool of players to play this round...
                 Game g = Game(j+1);
                 selectPlayersForThisRound(i,g);
-                fprintf(fph, "Game%d\n", j + 1);
                 for (uint32_t i=0; i<MAX_GAMES; i++)
                 {
-                    mGames[i].print(fph);
-                    if ( (i+1) < MAX_GAMES )
-                    {
-                        fprintf(fph,",");
-                    }
+                    mAllGames.push_back(mGames[i]);
                 }
-                fprintf(fph, "\n");
-                fflush(fph);
             }
         }
-        for (uint32_t i=0; i<MAX_PLAYERS; i++)
-        {
-            mPlayers[i].playerReport(fph);
-        }
-        fclose(fph);
     }
 
     uint32_t getPlayer(Game game)
     {
         uint32_t ret = 0;
-#if 0
+        std::vector<uint32_t> canPlayList;
         for (uint32_t i=0; i<MAX_PLAYERS; i++)
         {
-            if (mPlayers[i].canPlayThisGame(game))
-            {
-                ret = i;
-                break;
-            }
-        }
-#else
-        for (;;)
-        {
-            bool shuffled;
-            uint32_t randomPlayer = uint32_t(mRandPool.get(shuffled));
+            uint32_t randomPlayer = i;
             if (mPlayers[randomPlayer].canPlayThisGame(game))
             {
-                ret = randomPlayer;
-                break;
+                canPlayList.push_back(randomPlayer);
             }
         }
-#endif
+        assert(!canPlayList.empty());
+        if ( !canPlayList.empty() )
+        {
+            uint32_t count = uint32_t(canPlayList.size());
+            uint32_t choice = uint32_t(mRandPool.get())%count;
+            ret = canPlayList[choice];
+        }
         return ret;
     }
 
@@ -431,6 +523,8 @@ public:
 
         Player &prt = mPlayers[partner];
 
+        std::vector<uint32_t> choices;
+
         for (uint32_t i=0; i<MAX_PLAYERS; i++)
         {
             Player &p = mPlayers[i];
@@ -441,19 +535,25 @@ public:
                 {
                     if ( p.mPartnerCount[partner] < lowPartnerCount)
                     {
+                        choices.clear();
                         lowPartnerCount = p.mPartnerCount[partner];
                         lowPlayCount = 0xFFFFFFFF;
                     }
-                    if ( p.mPlayCount[partner] < lowPlayCount )
+                    if ( p.mPlayCount[partner] <= lowPlayCount )
                     {
                         lowPlayCount = p.mPlayCount[partner];
-                        ret = i;
+                        choices.push_back(i);
                     }
                 }
             }
         }
-        assert( ret != 0xFFFFFFFF);
-
+        assert(!choices.empty());
+        if ( !choices.empty() )
+        {
+            uint32_t count = uint32_t(choices.size());
+            uint32_t choice = uint32_t(mRandPool.get())%count;
+            ret = choices[choice];
+        }
         return ret;
     }
 
@@ -637,16 +737,56 @@ public:
         return ret;
     }
 
+    uint64_t getError(void) const
+    {
+        printf("========================================\n");
+        uint64_t error = 0;
+        for (uint32_t i = 0; i < MAX_PLAYERS; i++)
+        {
+            error+=mPlayers[i].getError();
+            mPlayers[i].playerReport();
+        }
+        printf("========================================\n");
+        printf("Total error: %lld\n", error);
+        printf("========================================\n");
+
+        return error;
+    }
 
     Player      mPlayers[MAX_PLAYERS];
+    uint64_t    mSeed{0};
     RandPool    mRandPool;
     SingleGame  mGames[MAX_GAMES];
+    std::vector<SingleGame> mAllGames;
 };
 
 
 int main()
 {
-    CornholeLeague cl;
+#if 1
+    CornholeLeague cl(6);
     cl.createSchedule();
+    cl.saveSchedule();
+
+#else
+    Rand r;
+    uint64_t bestSeed=0;
+    uint64_t leastError=0xFFFFFFFF;
+    // Recreate the schedule using different random seeds
+    // looking for a result with the last error..
+    for (uint64_t i=0; i<4; i++)
+    {
+        uint64_t seed = r.get();
+        CornholeLeague cl(seed);
+        cl.createSchedule();
+        uint64_t error = cl.getError();
+        if ( error < leastError )
+        {
+            printf("Found a schedule with less error: Went from %lld to %lld\n",leastError, error);
+            leastError = error;
+            bestSeed = seed;
+        }
+    }
+#endif
 }
 
