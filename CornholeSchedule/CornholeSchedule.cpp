@@ -115,135 +115,32 @@ private:
 
 
 
-#define MAX_PLAYERS 48
-#define MAX_ROUNDS 8
-#define MAX_GAMES 6
+#define MAX_PLAYERS 20
+#define MAX_ROUNDS 4
+#define MAX_GAMES 5
 
 const char *names[MAX_PLAYERS] =
 {
-#if 1
-"Richard Bernabiae",
-"Susan  Bernabie",
-
-"Marilyn Gray",
-"Wayne Gray",
-
-"Tristan Maddox",
-"Lindsey Mannix",
-
-"Dennis McGowan",
-"Wendy McGowan",
-
-"Steve Newsom",
-"Teresa Newsom",
-
-"Camilla Sampson",
-"Jacob Sampson",
-
-"Jim Schmidt",
-"Laurie Schmidt",
-
-"Melissa  Slaback",
-"Mike Slaback",
-
-"Angela Wolcott",
-"Gabe Wolcott",
-
-"Micah Sanger",
-"Mike Sanger",
-
-"Jim  Ross",
-"Leanne Ross",
-
-"Shane Wilson",
-"Cindy  Hughes",
-
-"Christie Kabrich",
-"Dave Halter",
-
-"Rodney Goodlette",
-"Michael Mitvalsky",
-
-"Nick Hord",
-"Dan Balantyne",
-
-"Ron Billings",
-"Dave Cannella",
-
-"Larry Hanahan",
-"Jim Hitt",
-
-"Jerome Hand",
-"Kirk DouPonce",
-
-"John Alessi",
-"Steve Hemschoot",
-
-"Ron Thibedeau",
-"Sean Smith",
-
-"Eric Winton",
-"Julie Joy",
-
-"Karla Bloom",
-"Coleen Hellen",
-
-"Player45",
-"Player46",
-
-"Player47",
-"Player48"
-
-#else
-"A1",
-"A2",
-"B1",
-"B2",
-"C1",
-"C2",
-"D1",
-"D2",
-"E1",
-"E2",
-"F1",
-"F2",
-"G1",
-"G2",
-"H1",
-"H2",
-"I1",
-"I2",
-"J1",
-"J2",
-"K1",
-"K2",
-"L1",
-"L2",
-"M1",
-"M2",
-"N1",
-"N2",
-"O1",
-"O2",
-"P1",
-"P2",
-"Q1",
-"Q2",
-"R1",
-"R2",
-"S1",
-"S2",
-"T1",
-"T2",
-"U1",
-"U2",
-"V1",
-"V2",
-"W1",
-"W2",
-"Y1",
-"Y2"
-#endif
+"P01",
+"P02",
+"P03",
+"P04",
+"P05",
+"P06",
+"P07",
+"P08",
+"P09",
+"P10",
+"P11",
+"P12",
+"P13",
+"P14",
+"P15",
+"P16",
+"P17",
+"P18",
+"P19",
+"P20"
 };
 
 enum Game
@@ -266,13 +163,6 @@ public:
     {
         mPlayerId = id;
         if ( id&1 )
-        {
-            mPartnerId = id-1;
-        }
-        else
-        {
-            mPartnerId = id+1;
-        }
         for (auto &i:mPlayCount)
         {
             i = 0;
@@ -290,21 +180,7 @@ public:
 
     bool canPlayThisGame(Game gameId)
     {
-        if ( mLastPlayed == Game::NONE )
-        {
-            return true;
-        }
-        bool ret = false;
-        switch ( mLastPlayed )
-        {
-            case Game::GAME1:
-                ret = gameId == Game::GAME3; // if we last played game one and this is game 3, then ok
-                break;
-            case Game::GAME2:
-                ret = gameId == GAME4; // if we last played game2 and this is game 4, then ok
-                break;
-        }
-        return ret;
+        return mLastPlayed != gameId;
     }
 
     void resetGame(void)
@@ -419,7 +295,7 @@ public:
 
     void saveSchedule(void)
     {
-        FILE *fph = fopen("CornholeLeague.csv", "wb");
+         FILE *fph = fopen("CornholeLeague.csv", "wb");
         if (fph == nullptr)
         {
             printf("Failed to open output file.\n");
@@ -433,9 +309,8 @@ public:
             fprintf(fph, "\n");
             for (uint32_t j = 0; j < 4; j++)
             {
-                fprintf(fph, "Board1:Game%d,Board2:Game%d,Board3:Game%d,Board4:Game%d,Board5:Game%d,Board6:Game%d\n",
-                    j+1,j+1,j+1,
-                    j+1,j+1,j+1);
+                fprintf(fph, "Board1:Game%d,Board2:Game%d,Board3:Game%d,Board4:Game%d,Board5:Game%d,\n",j+1,j+1,j+1,j+1,j+1);
+
                 for (uint32_t i = 0; i < MAX_GAMES; i++)
                 {
                     mAllGames[index].print(fph);
@@ -469,6 +344,7 @@ public:
         {
             mPlayers[i].init(i);
         }
+
         for (uint32_t i=0; i<MAX_ROUNDS; i++)
         {
             // Reset the game state...
@@ -524,36 +400,40 @@ public:
         Player &prt = mPlayers[partner];
 
         std::vector<uint32_t> choices;
+        std::vector<uint32_t> noChoices;
 
         for (uint32_t i=0; i<MAX_PLAYERS; i++)
         {
             Player &p = mPlayers[i];
-            if ( i != partner && 
-                 p.canPlayThisGame(game) )
+            if ( i != partner )
             {
-                if ( p.mPartnerCount[partner] <= lowPartnerCount )
+                if ( p.canPlayThisGame(game) )
                 {
-                    if ( p.mPartnerCount[partner] < lowPartnerCount)
+                    if ( p.mPartnerCount[partner] <= lowPartnerCount )
                     {
-                        choices.clear();
-                        lowPartnerCount = p.mPartnerCount[partner];
-                        lowPlayCount = 0xFFFFFFFF;
+                        if ( p.mPartnerCount[partner] < lowPartnerCount)
+                        {
+                            choices.clear();
+                            lowPartnerCount = p.mPartnerCount[partner];
+                            lowPlayCount = 0xFFFFFFFF;
+                        }
+                        if ( p.mPlayCount[partner] <= lowPlayCount )
+                        {
+                            lowPlayCount = p.mPlayCount[partner];
+                            choices.push_back(i);
+                        }
                     }
-                    if ( p.mPlayCount[partner] <= lowPlayCount )
-                    {
-                        lowPlayCount = p.mPlayCount[partner];
-                        choices.push_back(i);
-                    }
+                }
+                else
+                {
+                    noChoices.push_back(i);
                 }
             }
         }
         assert(!choices.empty());
-        if ( !choices.empty() )
-        {
-            uint32_t count = uint32_t(choices.size());
-            uint32_t choice = uint32_t(mRandPool.get())%count;
-            ret = choices[choice];
-        }
+        uint32_t count = uint32_t(choices.size());
+        uint32_t choice = uint32_t(mRandPool.get())%count;
+        ret = choices[choice];
         return ret;
     }
 
@@ -567,6 +447,7 @@ public:
     {
         uint32_t ret = 0;
         PlayerChoiceVector choices;
+        PlayerChoiceVector noChoices;
 
         uint32_t lowPlayCount = 0xFFFFFFFF;
 
@@ -577,30 +458,36 @@ public:
             Player &p = mPlayers[i];
             if (i != partner &&
                 i != op1 &&
-                i != op2 &&
-                p.canPlayThisGame(game))
+                i != op2 )
             {
-                // Trying to minimize the number of times
-                // these three other players have played this
-                // new candidate player..
-                uint32_t playCount1 = p.mPlayCount[partner];
-                uint32_t playCount2 = p.mPlayCount[op1];
-                uint32_t playCount3 = p.mPlayCount[op2];
-                uint32_t maxPlayCount = playCount1 + playCount2 + playCount3;
-                if (maxPlayCount <= lowPlayCount)
+                if ( p.canPlayThisGame(game))
                 {
-                    if ( maxPlayCount < lowPlayCount )
+                    // Trying to minimize the number of times
+                    // these three other players have played this
+                    // new candidate player..
+                    uint32_t playCount1 = p.mPlayCount[partner];
+                    uint32_t playCount2 = p.mPlayCount[op1];
+                    uint32_t playCount3 = p.mPlayCount[op2];
+                    uint32_t maxPlayCount = playCount1 + playCount2 + playCount3;
+                    if (maxPlayCount <= lowPlayCount)
                     {
-                        lowPlayCount = maxPlayCount;
-                        choices.clear();
+                        if ( maxPlayCount < lowPlayCount )
+                        {
+                            lowPlayCount = maxPlayCount;
+                            choices.clear();
+                        }
+                        choices.push_back(i);
                     }
-                    choices.push_back(i);
+                }
+                else
+                {
+                    noChoices.push_back(i);
                 }
             }
         }
         if ( choices.empty() )
         {
-            assert(0);
+            ret = randomChoice(noChoices);
         }
         else
         {
@@ -614,29 +501,19 @@ public:
     void selectPlayersForThisRound(uint32_t currentRound,Game game)
     {
         bool forcePartner = false;
-        if ( currentRound == 0  || currentRound == (MAX_ROUNDS-1))
-        {
-            if ( game == GAME1 || game == GAME2)
-            {
-                forcePartner = true;
-            }
-        }
+
         for (uint32_t gameCount=0; gameCount<MAX_GAMES; gameCount++)
         {
             static uint32_t gCount=0;
             gCount++;
             SingleGame &s = mGames[gameCount];
+
             s.mPlayer1 = getPlayer(game); // find a player that can play this round
             mPlayers[s.mPlayer1].setPlayGame(game); // note that we are playing this game
-            if ( forcePartner )
-            {
-                s.mPlayer2 = mPlayers[s.mPlayer1].mPartnerId;
-            }
-            else
-            {
-                s.mPlayer2 = findPartner(s.mPlayer1,game);
-            }
+
+            s.mPlayer2 = findPartner(s.mPlayer1,game);
             mPlayers[s.mPlayer2].setPlayGame(game); // not that we are playing this game
+
             s.mPlayer3 = bestOpponent(s.mPlayer1,s.mPlayer2,game);
             mPlayers[s.mPlayer3].setPlayGame(game); // not that we are playing this game
             if ( forcePartner )
@@ -687,6 +564,7 @@ public:
         uint32_t ret = 0;
 
         PlayerChoiceVector choices;
+        PlayerChoiceVector noChoices;
 
         uint32_t playCountLow = 32;
 
@@ -712,16 +590,14 @@ public:
                         choices.push_back(i);
                     }
                 }
+                else
+                {
+                    noChoices.push_back(i);
+                }
             }
         }
-        if ( choices.empty())
-        {
-            assert(0);
-        }
-        else
-        {
-            ret = randomChoice(choices);
-        }
+        assert(!choices.empty());
+        ret = randomChoice(choices);
         return ret;
     }
 
@@ -764,7 +640,7 @@ public:
 int main()
 {
 #if 1
-    CornholeLeague cl(6);
+    CornholeLeague cl(5);
     cl.createSchedule();
     cl.saveSchedule();
 
