@@ -122,77 +122,78 @@ private:
 const char *names[MAX_PLAYERS] =
 {
 #if 1
-"Richard Bernabiae",
-"Susan  Bernabie",
+"Ron	Billings",
+"Tagg	Billings",
 
-"Marilyn Gray",
-"Wayne Gray",
+"Karla	Bloom",
+"Jay	Richards",
 
-"Tristan Maddox",
-"Lindsey Mannix",
+"TJ 	Havens",
+"Trafford	Havens",
 
-"Dennis McGowan",
-"Wendy McGowan",
+"Dave	Halter",
+"Christie	Kabrich",
 
-"Steve Newsom",
-"Teresa Newsom",
+"Chad 	Thompson",
+"Sara	Wolf",
 
-"Camilla Sampson",
-"Jacob Sampson",
+"Dennis	McGowan",
+"Wendy	McGowan",
 
-"Jim Schmidt",
-"Laurie Schmidt",
+"Austin	Webb",
+"Courtney	Webb",
 
-"Melissa  Slaback",
-"Mike Slaback",
+"Roger	Pitt",
+"Tammy	Pitt",
 
-"Angela Wolcott",
-"Gabe Wolcott",
+"Clay	Prater",
+"Faith	Prater",
 
-"Micah Sanger",
-"Mike Sanger",
+"Jim 	Ross",
+"Leanne	Ross",
 
-"Jim  Ross",
-"Leanne Ross",
+"Jim	Schmidt",
+"Laurie	Schmidt",
 
-"Shane Wilson",
-"Cindy  Hughes",
+"Shane	Wilson",
+"Cindy 	Hughes",
 
-"Christie Kabrich",
-"Dave Halter",
+"Diane	Sanger",
+"Mike	Sanger",
 
-"Rodney Goodlette",
-"Michael Mitvalsky",
+"Larry	Hanahan",
+"Jim	Hitt",
 
-"Nick Hord",
-"Dan Balantyne",
+"Nathan	Foli",
+"Lisa	Ross",
 
-"Ron Billings",
-"Dave Cannella",
+"Mike	McCorkell",
+"Westin	McCorkell",
 
-"Larry Hanahan",
-"Jim Hitt",
+"Micah	Sanger",
+"John	Allessi",
 
-"Jerome Hand",
-"Kirk DouPonce",
+"Forest	Delano",
+"Kirk	DuPonce",
 
-"John Alessi",
-"Steve Hemschoot",
+"Rodney 	Goodette",
+"Glen	Jacobson",
 
-"Ron Thibedeau",
-"Sean Smith",
+"Jim	Mackey",
+"Sean 	McDonald",
 
-"Eric Winton",
-"Julie Joy",
+"Mitvalsky	Michael",
+"Camilla	Sampson",
 
-"Karla Bloom",
-"Coleen Hellen",
+"Sean	Smith",
+"Steve	Varner",
 
-"Player45",
-"Player46",
+"Gabe	Wolcott",
+"Steve 	Hemshoot",
 
-"Player47",
-"Player48"
+"Player	47",
+"Player	48"
+
 
 #else
 "A1",
@@ -764,7 +765,7 @@ public:
 int main()
 {
 #if 1
-    CornholeLeague cl(6);
+    CornholeLeague cl(7);
     cl.createSchedule();
     cl.saveSchedule();
 
