@@ -122,126 +122,149 @@ private:
 const char *names[MAX_PLAYERS] =
 {
 #if 1
-"Ron	Billings",
-"Tagg	Billings",
 
-"Karla	Bloom",
-"Jay	Richards",
+"Ron Billings",
+"Tagg Billings",
 
-"TJ 	Havens",
-"Trafford	Havens",
+"Karla Bloom",
+"Jay Richards",
 
-"Dave	Halter",
-"Christie	Kabrich",
+"TJ Havens",
+"Trafford Havens",
 
-"Chad 	Thompson",
-"Sara	Wolf",
+"Dave Halter",
+"Christie Kabrich",
 
-"Dennis	McGowan",
-"Wendy	McGowan",
+"Chad Thompson",
+"Sara Wolf",
 
-"Austin	Webb",
-"Courtney	Webb",
+"Dennis McGowan",
+"Wendy McGowan",
+
+"Austin Webb",
+"Courtney Webb",
 
 "Roger	Pitt",
-"Tammy	Pitt",
+"Tammy Pitt",
 
-"Clay	Prater",
+"Clay Prater",
 "Faith	Prater",
 
-"Jim 	Ross",
-"Leanne	Ross",
+"Jim Ross",
+"Leanne Ross",
 
-"Jim	Schmidt",
-"Laurie	Schmidt",
+"Jim Schmidt",
+"Laurie Schmidt",
 
-"Shane	Wilson",
-"Cindy 	Hughes",
+"Shane Wilson",
+"Cindy Hughes",
 
-"Diane	Sanger",
-"Mike	Sanger",
+"Diane Sanger",
+"Mike Sanger",
 
-"Larry	Hanahan",
-"Jim	Hitt",
+"Larry Hanahan",
+"Jim Hitt",
 
-"Nathan	Foli",
-"Lisa	Ross",
+"Nathan Foli",
+"Lisa Ross",
 
-"Mike	McCorkell",
-"Westin	McCorkell",
+"Mike McCorkell",
+"Westin McCorkell",
 
 "Micah	Sanger",
-"John	Allessi",
+"John Allessi",
 
-"Forest	Delano",
-"Kirk	DuPonce",
+"Forest Delano",
+"Kirk DuPonce",
 
-"Rodney 	Goodette",
-"Glen	Jacobson",
+"Rodney Goodette",
+"Glen Jacobson",
 
-"Jim	Mackey",
-"Sean 	McDonald",
+"Jim Mackey",
+"Sean McDonald",
 
 "Mitvalsky	Michael",
-"Camilla	Sampson",
+"Sean Smith",
 
-"Sean	Smith",
-"Steve	Varner",
+"Steve Varner",
+"Gabe Wolcott",
 
-"Gabe	Wolcott",
-"Steve 	Hemshoot",
+"Steve Hemshoot",
+"Player 46",
 
-"Player	47",
-"Player	48"
-
+"Player 47",
+"Player 48"
 
 #else
 "A1",
 "A2",
+
 "B1",
 "B2",
+
 "C1",
 "C2",
+
 "D1",
 "D2",
+
 "E1",
 "E2",
+
 "F1",
 "F2",
+
 "G1",
 "G2",
+
 "H1",
 "H2",
+
 "I1",
 "I2",
+
 "J1",
 "J2",
+
 "K1",
 "K2",
+
 "L1",
 "L2",
+
 "M1",
 "M2",
+
 "N1",
 "N2",
+
 "O1",
 "O2",
+
 "P1",
 "P2",
+
 "Q1",
 "Q2",
+
 "R1",
 "R2",
+
 "S1",
 "S2",
+
 "T1",
 "T2",
+
 "U1",
 "U2",
+
 "V1",
 "V2",
+
 "W1",
 "W2",
+
 "Y1",
 "Y2"
 #endif
