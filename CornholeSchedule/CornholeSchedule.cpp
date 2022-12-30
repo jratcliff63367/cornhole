@@ -115,87 +115,12 @@ private:
 
 
 
-#define MAX_PLAYERS 48
-#define MAX_ROUNDS 8
-#define MAX_GAMES 6
+#define MAX_PLAYERS 56
+#define MAX_ROUNDS 10
+#define MAX_GAMES 7
 
 const char *names[MAX_PLAYERS] =
 {
-#if 1
-
-"Ron Billings",
-"Tagg Billings",
-
-"Karla Bloom",
-"Jay Richards",
-
-"TJ Havens",
-"Trafford Havens",
-
-"Dave Halter",
-"Christie Kabrich",
-
-"Chad Thompson",
-"Sara Wolf",
-
-"Dennis McGowan",
-"Wendy McGowan",
-
-"Austin Webb",
-"Courtney Webb",
-
-"Roger	Pitt",
-"Tammy Pitt",
-
-"Clay Prater",
-"Faith	Prater",
-
-"Jim Ross",
-"Leanne Ross",
-
-"Jim Schmidt",
-"Laurie Schmidt",
-
-"Shane Wilson",
-"Cindy Hughes",
-
-"Diane Sanger",
-"Mike Sanger",
-
-"Larry Hanahan",
-"Jim Hitt",
-
-"Nathan Foli",
-"Lisa Ross",
-
-"Mike McCorkell",
-"Westin McCorkell",
-
-"Micah	Sanger",
-"John Allessi",
-
-"Forest Delano",
-"Kirk DuPonce",
-
-"Rodney Goodette",
-"Glen Jacobson",
-
-"Jim Mackey",
-"Sean McDonald",
-
-"Mitvalsky	Michael",
-"Sean Smith",
-
-"Steve Varner",
-"Gabe Wolcott",
-
-"Steve Hemshoot",
-"Player 46",
-
-"Player 47",
-"Player 48"
-
-#else
 "A1",
 "A2",
 
@@ -266,8 +191,20 @@ const char *names[MAX_PLAYERS] =
 "W2",
 
 "Y1",
-"Y2"
-#endif
+"Y2",
+
+"Z1",
+"Z2",
+
+"AA1",
+"AA2",
+
+"BB1",
+"BB2",
+
+"CC1",
+"CC2"
+
 };
 
 enum Game
@@ -457,9 +394,10 @@ public:
             fprintf(fph, "\n");
             for (uint32_t j = 0; j < 4; j++)
             {
-                fprintf(fph, "Board1:Game%d,Board2:Game%d,Board3:Game%d,Board4:Game%d,Board5:Game%d,Board6:Game%d\n",
+                fprintf(fph, "Board1:Game%d,Board2:Game%d,Board3:Game%d,Board4:Game%d,Board5:Game%d,Board6:Game%d,Board7:Game%d\n",
                     j+1,j+1,j+1,
-                    j+1,j+1,j+1);
+                    j+1,j+1,j+1,j+1);
+
                 for (uint32_t i = 0; i < MAX_GAMES; i++)
                 {
                     mAllGames[index].print(fph);
@@ -788,7 +726,7 @@ public:
 int main()
 {
 #if 1
-    CornholeLeague cl(7);
+    CornholeLeague cl(77);
     cl.createSchedule();
     cl.saveSchedule();
 
